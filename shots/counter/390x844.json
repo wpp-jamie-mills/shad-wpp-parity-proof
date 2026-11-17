@@ -1,0 +1,33 @@
+{
+  "component": "counter",
+  "family": "text-inputs",
+  "page": "/parity/text-inputs.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 110
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 110
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.221875,
+    "y": 0.21818181818181817,
+    "w": 0.55625,
+    "h": 0.5909090909090909
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

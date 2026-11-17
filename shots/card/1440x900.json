@@ -1,0 +1,33 @@
+{
+  "component": "card",
+  "family": "display-a",
+  "page": "/parity/display-a.html",
+  "state": "default",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 220
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 220
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.05,
+    "y": 0.19545454545454546,
+    "w": 0.9,
+    "h": 0.6181818181818182
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

@@ -1,0 +1,33 @@
+{
+  "component": "legacy-autocomplete",
+  "family": "legacy",
+  "page": "/parity/legacy.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 421,
+    "height": 440
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 421,
+    "height": 440
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.27078384798099764,
+    "y": 0.45454545454545453,
+    "w": 0.46080760095011875,
+    "h": 0.09090909090909091
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

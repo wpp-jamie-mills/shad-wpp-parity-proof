@@ -1,0 +1,33 @@
+{
+  "component": "nav-sidebar-item",
+  "family": "navigation-chrome",
+  "page": "/parity/navigation-chrome.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 240,
+    "height": 320
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 240,
+    "height": 320
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.04583333333333333,
+    "y": 0.484375,
+    "w": 0.4041666666666667,
+    "h": 0.05625
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

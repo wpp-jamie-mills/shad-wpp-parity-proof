@@ -1,0 +1,33 @@
+{
+  "component": "chat-reference",
+  "family": "chat",
+  "page": "/parity/chat.html",
+  "state": "file-preview",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 520,
+    "height": 120
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 520,
+    "height": 120
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.04230769230769231,
+    "y": 0.14166666666666666,
+    "w": 0.8846153846153846,
+    "h": 0.5166666666666667
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

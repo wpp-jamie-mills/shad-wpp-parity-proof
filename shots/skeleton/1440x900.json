@@ -1,0 +1,50 @@
+{
+  "component": "skeleton",
+  "family": "display-b",
+  "page": "/parity/display-b.html",
+  "state": "default",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0.005859375,
+    "n": 3,
+    "width": 320,
+    "height": 160
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 160
+  },
+  "baseRegions": [
+    {
+      "x": 0.85,
+      "y": 0.4,
+      "w": 0.050000000000000044,
+      "h": 0.19999999999999996,
+      "px": 3,
+      "materialPx": 0,
+      "aaOnly": true
+    }
+  ],
+  "radixRegions": [],
+  "content": {
+    "x": 0.125,
+    "y": 0.25,
+    "w": 0.75,
+    "h": 0.5
+  },
+  "baseAa": 3,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": {
+    "sx": 248,
+    "sy": 40,
+    "sw": 64,
+    "sh": 80,
+    "scale": 6,
+    "px": 3
+  },
+  "radixZoom": null
+}

@@ -1,0 +1,4862 @@
+[
+  {
+    "component": "accordion",
+    "family": "display-composite",
+    "page": "/parity/display-composite.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 600,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 600,
+      "height": 420
+    }
+  },
+  {
+    "component": "accordion",
+    "family": "display-composite",
+    "page": "/parity/display-composite.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 420
+    }
+  },
+  {
+    "component": "action-button",
+    "family": "buttons",
+    "page": "/parity/buttons.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "action-button",
+    "family": "buttons",
+    "page": "/parity/buttons.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "ag-grid-table-hybrid-inifinite-load-more",
+    "family": "ag-grid",
+    "page": "/parity/ag-grid.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "ag-grid-table-hybrid-inifinite-load-more",
+    "family": "ag-grid",
+    "page": "/parity/ag-grid.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "ag-grid-table-infinite-scroll",
+    "family": "ag-grid",
+    "page": "/parity/ag-grid.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "ag-grid-table-infinite-scroll",
+    "family": "ag-grid",
+    "page": "/parity/ag-grid.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "ag-grid-table-load-more",
+    "family": "ag-grid",
+    "page": "/parity/ag-grid.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "ag-grid-table-load-more",
+    "family": "ag-grid",
+    "page": "/parity/ag-grid.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "ag-grid-table-pagination",
+    "family": "ag-grid",
+    "page": "/parity/ag-grid.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "ag-grid-table-pagination",
+    "family": "ag-grid",
+    "page": "/parity/ag-grid.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "ag-grid-table",
+    "family": "ag-grid",
+    "page": "/parity/ag-grid.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "ag-grid-table",
+    "family": "ag-grid",
+    "page": "/parity/ag-grid.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "artefact",
+    "family": "ai-surfaces",
+    "page": "/parity/ai-surfaces.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 1224,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 1224,
+      "height": 420
+    }
+  },
+  {
+    "component": "artefact",
+    "family": "ai-surfaces",
+    "page": "/parity/ai-surfaces.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 420
+    }
+  },
+  {
+    "component": "audio-player",
+    "family": "media",
+    "page": "/parity/media.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 120
+    }
+  },
+  {
+    "component": "audio-player",
+    "family": "media",
+    "page": "/parity/media.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 120
+    }
+  },
+  {
+    "component": "autocomplete",
+    "family": "select-autocomplete",
+    "page": "/parity/select-autocomplete.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 560
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 560
+    }
+  },
+  {
+    "component": "autocomplete",
+    "family": "select-autocomplete",
+    "page": "/parity/select-autocomplete.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 560
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 560
+    }
+  },
+  {
+    "component": "avatar-group",
+    "family": "display-a",
+    "page": "/parity/display-a.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 80
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 80
+    }
+  },
+  {
+    "component": "avatar-group",
+    "family": "display-a",
+    "page": "/parity/display-a.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 80
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 80
+    }
+  },
+  {
+    "component": "avatar",
+    "family": "display-a",
+    "page": "/parity/display-a.html",
+    "state": "size-xs",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 152,
+      "height": 152
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 152,
+      "height": 152
+    }
+  },
+  {
+    "component": "avatar",
+    "family": "display-a",
+    "page": "/parity/display-a.html",
+    "state": "size-xs",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 152,
+      "height": 152
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 152,
+      "height": 152
+    }
+  },
+  {
+    "component": "back-to-top-button",
+    "family": "buttons",
+    "page": "/parity/buttons.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "back-to-top-button",
+    "family": "buttons",
+    "page": "/parity/buttons.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "banner",
+    "family": "modals-feedback",
+    "page": "/parity/modals-feedback.html",
+    "state": "warning",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 900,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 900,
+      "height": 120
+    }
+  },
+  {
+    "component": "banner",
+    "family": "modals-feedback",
+    "page": "/parity/modals-feedback.html",
+    "state": "warning",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0.043859649122807015,
+      "n": 18,
+      "width": 342,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 342,
+      "height": 120
+    }
+  },
+  {
+    "component": "basic-node",
+    "family": "ai-surfaces",
+    "page": "/parity/ai-surfaces.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 440,
+      "height": 600
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 440,
+      "height": 600
+    }
+  },
+  {
+    "component": "basic-node",
+    "family": "ai-surfaces",
+    "page": "/parity/ai-surfaces.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 600
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 600
+    }
+  },
+  {
+    "component": "breadcrumb",
+    "family": "navigation-basics",
+    "page": "/parity/navigation-basics.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0.027669270833333332,
+      "n": 17,
+      "width": 640,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 96
+    }
+  },
+  {
+    "component": "breadcrumb",
+    "family": "navigation-basics",
+    "page": "/parity/navigation-basics.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "primary-m",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "primary-m",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "card-group",
+    "family": "display-a",
+    "page": "/parity/display-a.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "card-group",
+    "family": "display-a",
+    "page": "/parity/display-a.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "card",
+    "family": "display-a",
+    "page": "/parity/display-a.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 220
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 220
+    }
+  },
+  {
+    "component": "card",
+    "family": "display-a",
+    "page": "/parity/display-a.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 220
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 220
+    }
+  },
+  {
+    "component": "chat-alert",
+    "family": "chat",
+    "page": "/parity/chat.html",
+    "state": "type-error",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 520,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 520,
+      "height": 120
+    }
+  },
+  {
+    "component": "chat-alert",
+    "family": "chat",
+    "page": "/parity/chat.html",
+    "state": "type-error",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 520,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 520,
+      "height": 120
+    }
+  },
+  {
+    "component": "chat-conversation-message",
+    "family": "chat",
+    "page": "/parity/chat.html",
+    "state": "user-complete",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 680,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 680,
+      "height": 420
+    }
+  },
+  {
+    "component": "chat-conversation-message",
+    "family": "chat",
+    "page": "/parity/chat.html",
+    "state": "user-complete",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 680,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 680,
+      "height": 420
+    }
+  },
+  {
+    "component": "chat-conversation",
+    "family": "chat",
+    "page": "/parity/chat.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 760,
+      "height": 620
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 760,
+      "height": 620
+    }
+  },
+  {
+    "component": "chat-conversation",
+    "family": "chat",
+    "page": "/parity/chat.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 760,
+      "height": 620
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 760,
+      "height": 620
+    }
+  },
+  {
+    "component": "chat-input",
+    "family": "chat",
+    "page": "/parity/chat.html",
+    "state": "default-m",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 680,
+      "height": 320
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 680,
+      "height": 320
+    }
+  },
+  {
+    "component": "chat-input",
+    "family": "chat",
+    "page": "/parity/chat.html",
+    "state": "default-m",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 680,
+      "height": 320
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 680,
+      "height": 320
+    }
+  },
+  {
+    "component": "chat-node",
+    "family": "chat",
+    "page": "/parity/chat.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0.005148741418764302,
+      "n": 9,
+      "width": 380,
+      "height": 460
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 380,
+      "height": 460
+    }
+  },
+  {
+    "component": "chat-node",
+    "family": "chat",
+    "page": "/parity/chat.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0.005148741418764302,
+      "n": 9,
+      "width": 380,
+      "height": 460
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 380,
+      "height": 460
+    }
+  },
+  {
+    "component": "chat-reference",
+    "family": "chat",
+    "page": "/parity/chat.html",
+    "state": "file-preview",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 520,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 520,
+      "height": 120
+    }
+  },
+  {
+    "component": "chat-reference",
+    "family": "chat",
+    "page": "/parity/chat.html",
+    "state": "file-preview",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 520,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 520,
+      "height": 120
+    }
+  },
+  {
+    "component": "chat-thinking",
+    "family": "chat",
+    "page": "/parity/chat.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 80
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 80
+    }
+  },
+  {
+    "component": "chat-thinking",
+    "family": "chat",
+    "page": "/parity/chat.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 80
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 80
+    }
+  },
+  {
+    "component": "checkbox-group",
+    "family": "selection",
+    "page": "/parity/selection.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 340,
+      "height": 190
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 340,
+      "height": 190
+    }
+  },
+  {
+    "component": "checkbox-group",
+    "family": "selection",
+    "page": "/parity/selection.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 340,
+      "height": 190
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 340,
+      "height": 190
+    }
+  },
+  {
+    "component": "checkbox",
+    "family": "selection",
+    "page": "/parity/selection.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 96
+    }
+  },
+  {
+    "component": "checkbox",
+    "family": "selection",
+    "page": "/parity/selection.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 96
+    }
+  },
+  {
+    "component": "color-picker",
+    "family": "color",
+    "page": "/parity/color.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 420,
+      "height": 540
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 420,
+      "height": 540
+    }
+  },
+  {
+    "component": "color-picker",
+    "family": "color",
+    "page": "/parity/color.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 540
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 540
+    }
+  },
+  {
+    "component": "counter",
+    "family": "text-inputs",
+    "page": "/parity/text-inputs.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 110
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 110
+    }
+  },
+  {
+    "component": "counter",
+    "family": "text-inputs",
+    "page": "/parity/text-inputs.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 110
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 110
+    }
+  },
+  {
+    "component": "datepicker",
+    "family": "date-time",
+    "page": "/parity/date-time.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 700,
+      "height": 700
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 700,
+      "height": 700
+    }
+  },
+  {
+    "component": "datepicker",
+    "family": "date-time",
+    "page": "/parity/date-time.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 356,
+      "height": 720
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 356,
+      "height": 720
+    }
+  },
+  {
+    "component": "divider",
+    "family": "display-a",
+    "page": "/parity/display-a.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 80
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 80
+    }
+  },
+  {
+    "component": "divider",
+    "family": "display-a",
+    "page": "/parity/display-a.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 80
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 80
+    }
+  },
+  {
+    "component": "echarts-bar",
+    "family": "echarts",
+    "page": "/parity/echarts.html",
+    "state": "bar-chart",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 1440,
+      "height": 800
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 1440,
+      "height": 800
+    }
+  },
+  {
+    "component": "echarts-bar",
+    "family": "echarts",
+    "page": "/parity/echarts.html",
+    "state": "bar-chart",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 800
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 800
+    }
+  },
+  {
+    "component": "echarts-line",
+    "family": "echarts",
+    "page": "/parity/echarts.html",
+    "state": "line-chart",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 1440,
+      "height": 800
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 1440,
+      "height": 800
+    }
+  },
+  {
+    "component": "echarts-line",
+    "family": "echarts",
+    "page": "/parity/echarts.html",
+    "state": "line-chart",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 800
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 800
+    }
+  },
+  {
+    "component": "echarts-pie",
+    "family": "echarts",
+    "page": "/parity/echarts.html",
+    "state": "pie-chart",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 1440,
+      "height": 800
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 1440,
+      "height": 800
+    }
+  },
+  {
+    "component": "echarts-pie",
+    "family": "echarts",
+    "page": "/parity/echarts.html",
+    "state": "pie-chart",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 800
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 800
+    }
+  },
+  {
+    "component": "empty-404",
+    "family": "image-empty-a",
+    "page": "/parity/image-empty-a.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-404",
+    "family": "image-empty-a",
+    "page": "/parity/image-empty-a.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-cards",
+    "family": "image-empty-a",
+    "page": "/parity/image-empty-a.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-cards",
+    "family": "image-empty-a",
+    "page": "/parity/image-empty-a.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-content",
+    "family": "image-empty-a",
+    "page": "/parity/image-empty-a.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-content",
+    "family": "image-empty-a",
+    "page": "/parity/image-empty-a.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-dataviz",
+    "family": "image-empty-a",
+    "page": "/parity/image-empty-a.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-dataviz",
+    "family": "image-empty-a",
+    "page": "/parity/image-empty-a.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-downtime",
+    "family": "image-empty-a",
+    "page": "/parity/image-empty-a.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-downtime",
+    "family": "image-empty-a",
+    "page": "/parity/image-empty-a.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-error",
+    "family": "image-empty-a",
+    "page": "/parity/image-empty-a.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-error",
+    "family": "image-empty-a",
+    "page": "/parity/image-empty-a.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-folder",
+    "family": "image-empty-b",
+    "page": "/parity/image-empty-b.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-folder",
+    "family": "image-empty-b",
+    "page": "/parity/image-empty-b.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-no-access",
+    "family": "image-empty-b",
+    "page": "/parity/image-empty-b.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-no-access",
+    "family": "image-empty-b",
+    "page": "/parity/image-empty-b.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-no-connection",
+    "family": "image-empty-b",
+    "page": "/parity/image-empty-b.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-no-connection",
+    "family": "image-empty-b",
+    "page": "/parity/image-empty-b.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-nothing-found",
+    "family": "image-empty-b",
+    "page": "/parity/image-empty-b.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-nothing-found",
+    "family": "image-empty-b",
+    "page": "/parity/image-empty-b.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-notifications",
+    "family": "image-empty-b",
+    "page": "/parity/image-empty-b.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-notifications",
+    "family": "image-empty-b",
+    "page": "/parity/image-empty-b.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-table",
+    "family": "image-empty-b",
+    "page": "/parity/image-empty-b.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "empty-table",
+    "family": "image-empty-b",
+    "page": "/parity/image-empty-b.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "expandable-card",
+    "family": "display-a",
+    "page": "/parity/display-a.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 220
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 220
+    }
+  },
+  {
+    "component": "expandable-card",
+    "family": "display-a",
+    "page": "/parity/display-a.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 220
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 220
+    }
+  },
+  {
+    "component": "file-upload-item",
+    "family": "file-upload",
+    "page": "/parity/file-upload.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 380,
+      "height": 110
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 380,
+      "height": 110
+    }
+  },
+  {
+    "component": "file-upload-item",
+    "family": "file-upload",
+    "page": "/parity/file-upload.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 380,
+      "height": 110
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 380,
+      "height": 110
+    }
+  },
+  {
+    "component": "file-upload",
+    "family": "file-upload",
+    "page": "/parity/file-upload.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 420,
+      "height": 700
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 420,
+      "height": 700
+    }
+  },
+  {
+    "component": "file-upload",
+    "family": "file-upload",
+    "page": "/parity/file-upload.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 420,
+      "height": 700
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 420,
+      "height": 700
+    }
+  },
+  {
+    "component": "filter-button",
+    "family": "buttons",
+    "page": "/parity/buttons.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "filter-button",
+    "family": "buttons",
+    "page": "/parity/buttons.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "floating-button",
+    "family": "buttons",
+    "page": "/parity/buttons.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "floating-button",
+    "family": "buttons",
+    "page": "/parity/buttons.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "floating-toolbar",
+    "family": "display-composite",
+    "page": "/parity/display-composite.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 120
+    }
+  },
+  {
+    "component": "floating-toolbar",
+    "family": "display-composite",
+    "page": "/parity/display-composite.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 120
+    }
+  },
+  {
+    "component": "focus-artefact",
+    "family": "ai-surfaces",
+    "page": "/parity/ai-surfaces.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 920,
+      "height": 520
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 920,
+      "height": 520
+    }
+  },
+  {
+    "component": "focus-artefact",
+    "family": "ai-surfaces",
+    "page": "/parity/ai-surfaces.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 520
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 520
+    }
+  },
+  {
+    "component": "full-screen-modal",
+    "family": "modals-feedback",
+    "page": "/parity/modals-feedback.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "full-screen-modal",
+    "family": "modals-feedback",
+    "page": "/parity/modals-feedback.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "grid",
+    "family": "menus-grid",
+    "page": "/parity/menus-grid.html",
+    "state": "columns-24",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 1440,
+      "height": 360
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 1440,
+      "height": 360
+    }
+  },
+  {
+    "component": "grid",
+    "family": "menus-grid",
+    "page": "/parity/menus-grid.html",
+    "state": "columns-24",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 360
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 360
+    }
+  },
+  {
+    "component": "handle",
+    "family": "display-b",
+    "page": "/parity/display-b.html",
+    "state": "source",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 160
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 160
+    }
+  },
+  {
+    "component": "handle",
+    "family": "display-b",
+    "page": "/parity/display-b.html",
+    "state": "source",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0.06770833333333334,
+      "n": 26,
+      "width": 240,
+      "height": 160
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 160
+    }
+  },
+  {
+    "component": "hue-slider",
+    "family": "color",
+    "page": "/parity/color.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 48
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 48
+    }
+  },
+  {
+    "component": "hue-slider",
+    "family": "color",
+    "page": "/parity/color.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 48
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 48
+    }
+  },
+  {
+    "component": "image",
+    "family": "image-empty-a",
+    "page": "/parity/image-empty-a.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "image",
+    "family": "image-empty-a",
+    "page": "/parity/image-empty-a.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 240
+    }
+  },
+  {
+    "component": "inline-edit",
+    "family": "pills-segmented",
+    "page": "/parity/pills-segmented.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 360
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 360
+    }
+  },
+  {
+    "component": "inline-edit",
+    "family": "pills-segmented",
+    "page": "/parity/pills-segmented.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 360
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 360
+    }
+  },
+  {
+    "component": "inline-message",
+    "family": "modals-feedback",
+    "page": "/parity/modals-feedback.html",
+    "state": "size-s-warning",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 520,
+      "height": 170
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 520,
+      "height": 170
+    }
+  },
+  {
+    "component": "inline-message",
+    "family": "modals-feedback",
+    "page": "/parity/modals-feedback.html",
+    "state": "size-s-warning",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0.065359477124183,
+      "n": 38,
+      "width": 342,
+      "height": 170
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 342,
+      "height": 170
+    }
+  },
+  {
+    "component": "input",
+    "family": "text-inputs",
+    "page": "/parity/text-inputs.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 150
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 150
+    }
+  },
+  {
+    "component": "input",
+    "family": "text-inputs",
+    "page": "/parity/text-inputs.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 150
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 150
+    }
+  },
+  {
+    "component": "internal-label",
+    "family": "text-inputs",
+    "page": "/parity/text-inputs.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 80
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 80
+    }
+  },
+  {
+    "component": "internal-label",
+    "family": "text-inputs",
+    "page": "/parity/text-inputs.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 80
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 80
+    }
+  },
+  {
+    "component": "label",
+    "family": "text-inputs",
+    "page": "/parity/text-inputs.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 80
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 80
+    }
+  },
+  {
+    "component": "label",
+    "family": "text-inputs",
+    "page": "/parity/text-inputs.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 80
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 80
+    }
+  },
+  {
+    "component": "legacy-autocomplete",
+    "family": "legacy",
+    "page": "/parity/legacy.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 421,
+      "height": 440
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 421,
+      "height": 440
+    }
+  },
+  {
+    "component": "legacy-autocomplete",
+    "family": "legacy",
+    "page": "/parity/legacy.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 421,
+      "height": 440
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 421,
+      "height": 440
+    }
+  },
+  {
+    "component": "legacy-avatar",
+    "family": "legacy",
+    "page": "/parity/legacy.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 180,
+      "height": 180
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 180,
+      "height": 180
+    }
+  },
+  {
+    "component": "legacy-avatar",
+    "family": "legacy",
+    "page": "/parity/legacy.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 180,
+      "height": 180
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 180,
+      "height": 180
+    }
+  },
+  {
+    "component": "legacy-counter",
+    "family": "legacy",
+    "page": "/parity/legacy.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 280,
+      "height": 140
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 280,
+      "height": 140
+    }
+  },
+  {
+    "component": "legacy-counter",
+    "family": "legacy",
+    "page": "/parity/legacy.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 280,
+      "height": 140
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 280,
+      "height": 140
+    }
+  },
+  {
+    "component": "legacy-sticky-bar",
+    "family": "legacy",
+    "page": "/parity/legacy.html",
+    "state": "visible-one-line",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 1440,
+      "height": 180
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 1440,
+      "height": 180
+    }
+  },
+  {
+    "component": "legacy-sticky-bar",
+    "family": "legacy",
+    "page": "/parity/legacy.html",
+    "state": "visible-one-line",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 16.85185185185185,
+      "n": 43680,
+      "width": 1440,
+      "height": 180
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 1440,
+      "height": 180
+    }
+  },
+  {
+    "component": "legacy-topbar-item",
+    "family": "legacy",
+    "page": "/parity/legacy.html",
+    "state": "link",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 300,
+      "height": 64
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 300,
+      "height": 64
+    }
+  },
+  {
+    "component": "legacy-topbar-item",
+    "family": "legacy",
+    "page": "/parity/legacy.html",
+    "state": "link",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 300,
+      "height": 64
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 300,
+      "height": 64
+    }
+  },
+  {
+    "component": "legacy-topbar",
+    "family": "legacy",
+    "page": "/parity/legacy.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 900,
+      "height": 140
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 900,
+      "height": 140
+    }
+  },
+  {
+    "component": "legacy-topbar",
+    "family": "legacy",
+    "page": "/parity/legacy.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 900,
+      "height": 140
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 900,
+      "height": 140
+    }
+  },
+  {
+    "component": "legend",
+    "family": "display-b",
+    "page": "/parity/display-b.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0.005208333333333334,
+      "n": 2,
+      "width": 320,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 120
+    }
+  },
+  {
+    "component": "legend",
+    "family": "display-b",
+    "page": "/parity/display-b.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 120
+    }
+  },
+  {
+    "component": "list-item",
+    "family": "display-composite",
+    "page": "/parity/display-composite.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 120
+    }
+  },
+  {
+    "component": "list-item",
+    "family": "display-composite",
+    "page": "/parity/display-composite.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 120
+    }
+  },
+  {
+    "component": "load-more",
+    "family": "navigation-basics",
+    "page": "/parity/navigation-basics.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 280,
+      "height": 200
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 280,
+      "height": 200
+    }
+  },
+  {
+    "component": "load-more",
+    "family": "navigation-basics",
+    "page": "/parity/navigation-basics.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 280,
+      "height": 200
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 280,
+      "height": 200
+    }
+  },
+  {
+    "component": "media-viewer",
+    "family": "media",
+    "page": "/parity/media.html",
+    "state": "story-default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 448,
+      "height": 448
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 448,
+      "height": 448
+    }
+  },
+  {
+    "component": "media-viewer",
+    "family": "media",
+    "page": "/parity/media.html",
+    "state": "story-default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 448,
+      "height": 448
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 448,
+      "height": 448
+    }
+  },
+  {
+    "component": "menu-context",
+    "family": "menus-grid",
+    "page": "/parity/menus-grid.html",
+    "state": "open",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 480
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 480
+    }
+  },
+  {
+    "component": "menu-context",
+    "family": "menus-grid",
+    "page": "/parity/menus-grid.html",
+    "state": "open",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 480
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 480
+    }
+  },
+  {
+    "component": "menu-group",
+    "family": "menus-grid",
+    "page": "/parity/menus-grid.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 300,
+      "height": 180
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 300,
+      "height": 180
+    }
+  },
+  {
+    "component": "menu-group",
+    "family": "menus-grid",
+    "page": "/parity/menus-grid.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 300,
+      "height": 180
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 300,
+      "height": 180
+    }
+  },
+  {
+    "component": "modal",
+    "family": "modals-feedback",
+    "page": "/parity/modals-feedback.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "modal",
+    "family": "modals-feedback",
+    "page": "/parity/modals-feedback.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "more-button",
+    "family": "buttons",
+    "page": "/parity/buttons.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "more-button",
+    "family": "buttons",
+    "page": "/parity/buttons.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "nav-sidebar-item",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 320
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 320
+    }
+  },
+  {
+    "component": "nav-sidebar-item",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 320
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 320
+    }
+  },
+  {
+    "component": "nav-sidebar",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 520
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 520
+    }
+  },
+  {
+    "component": "nav-sidebar",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 520
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 520
+    }
+  },
+  {
+    "component": "opacity-slider",
+    "family": "color",
+    "page": "/parity/color.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 48
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 48
+    }
+  },
+  {
+    "component": "opacity-slider",
+    "family": "color",
+    "page": "/parity/color.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 48
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 48
+    }
+  },
+  {
+    "component": "overlay",
+    "family": "overlay-primitives",
+    "page": "/parity/overlay-primitives.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 160
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 160
+    }
+  },
+  {
+    "component": "overlay",
+    "family": "overlay-primitives",
+    "page": "/parity/overlay-primitives.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 160
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 160
+    }
+  },
+  {
+    "component": "pagination-item",
+    "family": "navigation-basics",
+    "page": "/parity/navigation-basics.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 60,
+      "height": 60
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 60,
+      "height": 60
+    }
+  },
+  {
+    "component": "pagination-item",
+    "family": "navigation-basics",
+    "page": "/parity/navigation-basics.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 60,
+      "height": 60
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 60,
+      "height": 60
+    }
+  },
+  {
+    "component": "pagination-select",
+    "family": "navigation-basics",
+    "page": "/parity/navigation-basics.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 64
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 64
+    }
+  },
+  {
+    "component": "pagination-select",
+    "family": "navigation-basics",
+    "page": "/parity/navigation-basics.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 64
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 64
+    }
+  },
+  {
+    "component": "pagination",
+    "family": "navigation-basics",
+    "page": "/parity/navigation-basics.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 96
+    }
+  },
+  {
+    "component": "pagination",
+    "family": "navigation-basics",
+    "page": "/parity/navigation-basics.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 96
+    }
+  },
+  {
+    "component": "pill-group",
+    "family": "pills-segmented",
+    "page": "/parity/pills-segmented.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 520,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0.1282051282051282,
+      "n": 64,
+      "width": 520,
+      "height": 96
+    }
+  },
+  {
+    "component": "pill-group",
+    "family": "pills-segmented",
+    "page": "/parity/pills-segmented.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 520,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 520,
+      "height": 96
+    }
+  },
+  {
+    "component": "pill",
+    "family": "pills-segmented",
+    "page": "/parity/pills-segmented.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 64
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 64
+    }
+  },
+  {
+    "component": "pill",
+    "family": "pills-segmented",
+    "page": "/parity/pills-segmented.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 64
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 64
+    }
+  },
+  {
+    "component": "popover",
+    "family": "overlay-primitives",
+    "page": "/parity/overlay-primitives.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 6.0296875,
+      "n": 7718,
+      "width": 320,
+      "height": 400
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 400
+    }
+  },
+  {
+    "component": "popover",
+    "family": "overlay-primitives",
+    "page": "/parity/overlay-primitives.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 6.02421875,
+      "n": 7711,
+      "width": 320,
+      "height": 400
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 400
+    }
+  },
+  {
+    "component": "progress-indicator",
+    "family": "display-b",
+    "page": "/parity/display-b.html",
+    "state": "bar-indeterminate",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 200
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 200
+    }
+  },
+  {
+    "component": "progress-indicator",
+    "family": "display-b",
+    "page": "/parity/display-b.html",
+    "state": "bar-indeterminate",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 200
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 200
+    }
+  },
+  {
+    "component": "radio-group",
+    "family": "selection",
+    "page": "/parity/selection.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 340,
+      "height": 190
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 340,
+      "height": 190
+    }
+  },
+  {
+    "component": "radio-group",
+    "family": "selection",
+    "page": "/parity/selection.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 340,
+      "height": 190
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 340,
+      "height": 190
+    }
+  },
+  {
+    "component": "radio",
+    "family": "selection",
+    "page": "/parity/selection.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 96
+    }
+  },
+  {
+    "component": "radio",
+    "family": "selection",
+    "page": "/parity/selection.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 96
+    }
+  },
+  {
+    "component": "richtext-common-styles",
+    "family": "richtext",
+    "page": "/parity/richtext.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 80
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 80
+    }
+  },
+  {
+    "component": "richtext-common-styles",
+    "family": "richtext",
+    "page": "/parity/richtext.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 80
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 80
+    }
+  },
+  {
+    "component": "richtext-html",
+    "family": "richtext",
+    "page": "/parity/richtext.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 420
+    }
+  },
+  {
+    "component": "richtext-html",
+    "family": "richtext",
+    "page": "/parity/richtext.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 420
+    }
+  },
+  {
+    "component": "richtext-icon-loader",
+    "family": "richtext",
+    "page": "/parity/richtext.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 80
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 80
+    }
+  },
+  {
+    "component": "richtext-icon-loader",
+    "family": "richtext",
+    "page": "/parity/richtext.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 80
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 240,
+      "height": 80
+    }
+  },
+  {
+    "component": "richtext-markdown",
+    "family": "richtext",
+    "page": "/parity/richtext.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 420
+    }
+  },
+  {
+    "component": "richtext-markdown",
+    "family": "richtext",
+    "page": "/parity/richtext.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 420
+    }
+  },
+  {
+    "component": "richtext-view",
+    "family": "richtext",
+    "page": "/parity/richtext.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 420
+    }
+  },
+  {
+    "component": "richtext-view",
+    "family": "richtext",
+    "page": "/parity/richtext.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 420
+    }
+  },
+  {
+    "component": "richtext",
+    "family": "richtext",
+    "page": "/parity/richtext.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0.006105006105006105,
+      "n": 10,
+      "width": 390,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 420
+    }
+  },
+  {
+    "component": "richtext",
+    "family": "richtext",
+    "page": "/parity/richtext.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 420
+    }
+  },
+  {
+    "component": "saturation-picker",
+    "family": "color",
+    "page": "/parity/color.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 380,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 380,
+      "height": 240
+    }
+  },
+  {
+    "component": "saturation-picker",
+    "family": "color",
+    "page": "/parity/color.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 380,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 380,
+      "height": 240
+    }
+  },
+  {
+    "component": "search",
+    "family": "text-inputs",
+    "page": "/parity/text-inputs.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 352
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 352
+    }
+  },
+  {
+    "component": "search",
+    "family": "text-inputs",
+    "page": "/parity/text-inputs.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 352
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 352
+    }
+  },
+  {
+    "component": "segmented-control-item",
+    "family": "pills-segmented",
+    "page": "/parity/pills-segmented.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 72
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 72
+    }
+  },
+  {
+    "component": "segmented-control-item",
+    "family": "pills-segmented",
+    "page": "/parity/pills-segmented.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 72
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 72
+    }
+  },
+  {
+    "component": "segmented-control",
+    "family": "pills-segmented",
+    "page": "/parity/pills-segmented.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 560,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 560,
+      "height": 120
+    }
+  },
+  {
+    "component": "segmented-control",
+    "family": "pills-segmented",
+    "page": "/parity/pills-segmented.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 560,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 560,
+      "height": 120
+    }
+  },
+  {
+    "component": "select",
+    "family": "select-autocomplete",
+    "page": "/parity/select-autocomplete.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 520
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 520
+    }
+  },
+  {
+    "component": "select",
+    "family": "select-autocomplete",
+    "page": "/parity/select-autocomplete.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 520
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 520
+    }
+  },
+  {
+    "component": "side-modal",
+    "family": "modals-feedback",
+    "page": "/parity/modals-feedback.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "side-modal",
+    "family": "modals-feedback",
+    "page": "/parity/modals-feedback.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "side-panel",
+    "family": "ai-surfaces",
+    "page": "/parity/ai-surfaces.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 1.1242424242424243,
+      "n": 2968,
+      "width": 440,
+      "height": 600
+    },
+    "radix": {
+      "pct": 1.1242424242424243,
+      "n": 2968,
+      "width": 440,
+      "height": 600
+    }
+  },
+  {
+    "component": "side-panel",
+    "family": "ai-surfaces",
+    "page": "/parity/ai-surfaces.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 1.2683760683760683,
+      "n": 2968,
+      "width": 390,
+      "height": 600
+    },
+    "radix": {
+      "pct": 1.2683760683760683,
+      "n": 2968,
+      "width": 390,
+      "height": 600
+    }
+  },
+  {
+    "component": "skeleton",
+    "family": "display-b",
+    "page": "/parity/display-b.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0.005859375,
+      "n": 3,
+      "width": 320,
+      "height": 160
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 160
+    }
+  },
+  {
+    "component": "skeleton",
+    "family": "display-b",
+    "page": "/parity/display-b.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0.076171875,
+      "n": 39,
+      "width": 320,
+      "height": 160
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 160
+    }
+  },
+  {
+    "component": "slider",
+    "family": "selection",
+    "page": "/parity/selection.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0.005208333333333334,
+      "n": 3,
+      "width": 360,
+      "height": 160
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 160
+    }
+  },
+  {
+    "component": "slider",
+    "family": "selection",
+    "page": "/parity/selection.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0.005208333333333334,
+      "n": 3,
+      "width": 360,
+      "height": 160
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 160
+    }
+  },
+  {
+    "component": "sort-button",
+    "family": "buttons",
+    "page": "/parity/buttons.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "sort-button",
+    "family": "buttons",
+    "page": "/parity/buttons.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "spinner",
+    "family": "display-b",
+    "page": "/parity/display-b.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 160,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 160,
+      "height": 120
+    }
+  },
+  {
+    "component": "spinner",
+    "family": "display-b",
+    "page": "/parity/display-b.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 160,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 160,
+      "height": 120
+    }
+  },
+  {
+    "component": "step",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 200,
+      "height": 140
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 200,
+      "height": 140
+    }
+  },
+  {
+    "component": "step",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 200,
+      "height": 140
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 200,
+      "height": 140
+    }
+  },
+  {
+    "component": "stepper",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0.056746031746031746,
+      "n": 143,
+      "width": 600,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 600,
+      "height": 420
+    }
+  },
+  {
+    "component": "stepper",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0.014285714285714287,
+      "n": 36,
+      "width": 600,
+      "height": 420
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 600,
+      "height": 420
+    }
+  },
+  {
+    "component": "sticky-bar",
+    "family": "display-composite",
+    "page": "/parity/display-composite.html",
+    "state": "visible",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 1440,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 1440,
+      "height": 240
+    }
+  },
+  {
+    "component": "sticky-bar",
+    "family": "display-composite",
+    "page": "/parity/display-composite.html",
+    "state": "visible",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 240
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 390,
+      "height": 240
+    }
+  },
+  {
+    "component": "swiper",
+    "family": "swiper",
+    "page": "/parity/swiper.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "swiper",
+    "family": "swiper",
+    "page": "/parity/swiper.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "tab",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 260,
+      "height": 60
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 260,
+      "height": 60
+    }
+  },
+  {
+    "component": "tab",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 260,
+      "height": 60
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 260,
+      "height": 60
+    }
+  },
+  {
+    "component": "tabs",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 64
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 64
+    }
+  },
+  {
+    "component": "tabs",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 64
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 64
+    }
+  },
+  {
+    "component": "tag",
+    "family": "display-a",
+    "page": "/parity/display-a.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 260,
+      "height": 64
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 260,
+      "height": 64
+    }
+  },
+  {
+    "component": "tag",
+    "family": "display-a",
+    "page": "/parity/display-a.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 260,
+      "height": 64
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 260,
+      "height": 64
+    }
+  },
+  {
+    "component": "textarea-input",
+    "family": "text-inputs",
+    "page": "/parity/text-inputs.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 224
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 224
+    }
+  },
+  {
+    "component": "textarea-input",
+    "family": "text-inputs",
+    "page": "/parity/text-inputs.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 224
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 224
+    }
+  },
+  {
+    "component": "time-picker",
+    "family": "date-time",
+    "page": "/parity/date-time.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0.00044642857142857147,
+      "n": 1,
+      "width": 400,
+      "height": 560
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 400,
+      "height": 560
+    }
+  },
+  {
+    "component": "time-picker",
+    "family": "date-time",
+    "page": "/parity/date-time.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0.0021645021645021645,
+      "n": 4,
+      "width": 330,
+      "height": 560
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 330,
+      "height": 560
+    }
+  },
+  {
+    "component": "toast-container",
+    "family": "modals-feedback",
+    "page": "/parity/modals-feedback.html",
+    "state": "single",
+    "name": "1440x900",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "toast-container",
+    "family": "modals-feedback",
+    "page": "/parity/modals-feedback.html",
+    "state": "single",
+    "name": "390x844",
+    "ok": false,
+    "error": "not captured"
+  },
+  {
+    "component": "toast",
+    "family": "modals-feedback",
+    "page": "/parity/modals-feedback.html",
+    "state": "type-error",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 440,
+      "height": 200
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 440,
+      "height": 200
+    }
+  },
+  {
+    "component": "toast",
+    "family": "modals-feedback",
+    "page": "/parity/modals-feedback.html",
+    "state": "type-error",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0.0022727272727272726,
+      "n": 2,
+      "width": 440,
+      "height": 200
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 440,
+      "height": 200
+    }
+  },
+  {
+    "component": "toggle",
+    "family": "selection",
+    "page": "/parity/selection.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 96
+    }
+  },
+  {
+    "component": "toggle",
+    "family": "selection",
+    "page": "/parity/selection.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 220,
+      "height": 96
+    }
+  },
+  {
+    "component": "tooltip",
+    "family": "overlay-primitives",
+    "page": "/parity/overlay-primitives.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 400
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 400
+    }
+  },
+  {
+    "component": "tooltip",
+    "family": "overlay-primitives",
+    "page": "/parity/overlay-primitives.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 400
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 400
+    }
+  },
+  {
+    "component": "topbar-item",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 260,
+      "height": 64
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 260,
+      "height": 64
+    }
+  },
+  {
+    "component": "topbar-item",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 260,
+      "height": 64
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 260,
+      "height": 64
+    }
+  },
+  {
+    "component": "topbar",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 900,
+      "height": 72
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 900,
+      "height": 72
+    }
+  },
+  {
+    "component": "topbar",
+    "family": "navigation-chrome",
+    "page": "/parity/navigation-chrome.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 900,
+      "height": 72
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 900,
+      "height": 72
+    }
+  },
+  {
+    "component": "tree-item",
+    "family": "tree",
+    "page": "/parity/tree.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 120
+    }
+  },
+  {
+    "component": "tree-item",
+    "family": "tree",
+    "page": "/parity/tree.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 120
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 120
+    }
+  },
+  {
+    "component": "tree",
+    "family": "tree",
+    "page": "/parity/tree.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 620
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 620
+    }
+  },
+  {
+    "component": "tree",
+    "family": "tree",
+    "page": "/parity/tree.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 620
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 360,
+      "height": 620
+    }
+  },
+  {
+    "component": "typography",
+    "family": "menus-grid",
+    "page": "/parity/menus-grid.html",
+    "state": "type-l-body",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 96
+    }
+  },
+  {
+    "component": "typography",
+    "family": "menus-grid",
+    "page": "/parity/menus-grid.html",
+    "state": "type-l-body",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 96
+    }
+  },
+  {
+    "component": "video-player",
+    "family": "media",
+    "page": "/parity/media.html",
+    "state": "default",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 380
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 380
+    }
+  },
+  {
+    "component": "video-player",
+    "family": "media",
+    "page": "/parity/media.html",
+    "state": "default",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0.011924342105263157,
+      "n": 29,
+      "width": 640,
+      "height": 380
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 640,
+      "height": 380
+    }
+  }
+]

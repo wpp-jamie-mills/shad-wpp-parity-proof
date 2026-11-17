@@ -1,0 +1,33 @@
+{
+  "component": "audio-player",
+  "family": "media",
+  "page": "/parity/media.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 640,
+    "height": 120
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 640,
+    "height": 120
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.196875,
+    "y": 0.25,
+    "w": 0.60625,
+    "h": 0.45
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

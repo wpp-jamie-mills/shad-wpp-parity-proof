@@ -1,0 +1,33 @@
+{
+  "component": "color-picker",
+  "family": "color",
+  "page": "/parity/color.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 390,
+    "height": 540
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 390,
+    "height": 540
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.05128205128205128,
+    "y": 0.02962962962962963,
+    "w": 0.5230769230769231,
+    "h": 0.044444444444444446
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

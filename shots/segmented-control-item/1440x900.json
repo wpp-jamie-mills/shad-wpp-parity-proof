@@ -1,0 +1,33 @@
+{
+  "component": "segmented-control-item",
+  "family": "pills-segmented",
+  "page": "/parity/pills-segmented.html",
+  "state": "default",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 220,
+    "height": 72
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 220,
+    "height": 72
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.045454545454545456,
+    "y": 0.2222222222222222,
+    "w": 0.9090909090909091,
+    "h": 0.5555555555555556
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

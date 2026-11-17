@@ -1,0 +1,68 @@
+{
+  "component": "stepper",
+  "family": "navigation-chrome",
+  "page": "/parity/navigation-chrome.html",
+  "state": "default",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0.056746031746031746,
+    "n": 143,
+    "width": 600,
+    "height": 420
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 600,
+    "height": 420
+  },
+  "baseRegions": [
+    {
+      "x": 0.37333333333333335,
+      "y": 0.3047619047619048,
+      "w": 0.053333333333333344,
+      "h": 0.11428571428571427,
+      "px": 53,
+      "materialPx": 20,
+      "aaOnly": false
+    },
+    {
+      "x": 0.37333333333333335,
+      "y": 0.45714285714285713,
+      "w": 0.053333333333333344,
+      "h": 0.0761904761904762,
+      "px": 48,
+      "materialPx": 27,
+      "aaOnly": false
+    },
+    {
+      "x": 0.37333333333333335,
+      "y": 0.5714285714285714,
+      "w": 0.053333333333333344,
+      "h": 0.11428571428571432,
+      "px": 42,
+      "materialPx": 10,
+      "aaOnly": false
+    }
+  ],
+  "radixRegions": [],
+  "content": {
+    "x": 0.355,
+    "y": 0.3357142857142857,
+    "w": 0.2633333333333333,
+    "h": 0.32857142857142857
+  },
+  "baseAa": 86,
+  "baseMaterial": 57,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": {
+    "sx": 200,
+    "sy": 104,
+    "sw": 80,
+    "sh": 208,
+    "scale": 5,
+    "px": 143
+  },
+  "radixZoom": null
+}

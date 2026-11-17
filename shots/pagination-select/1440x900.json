@@ -1,0 +1,33 @@
+{
+  "component": "pagination-select",
+  "family": "navigation-basics",
+  "page": "/parity/navigation-basics.html",
+  "state": "default",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 360,
+    "height": 64
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 360,
+    "height": 64
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.07777777777777778,
+    "y": 0.25,
+    "w": 0.8444444444444444,
+    "h": 0.5
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

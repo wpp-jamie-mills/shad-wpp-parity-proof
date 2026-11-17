@@ -1,0 +1,50 @@
+{
+  "component": "slider",
+  "family": "selection",
+  "page": "/selection.html",
+  "state": "default",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0.005208333333333334,
+    "n": 3,
+    "width": 360,
+    "height": 160
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 360,
+    "height": 160
+  },
+  "baseRegions": [
+    {
+      "x": 0.7111111111111111,
+      "y": 0,
+      "w": 0.0444444444444444,
+      "h": 0.1,
+      "px": 3,
+      "materialPx": 0,
+      "aaOnly": true
+    }
+  ],
+  "radixRegions": [],
+  "content": {
+    "x": 0,
+    "y": 0.01875,
+    "w": 0.7555555555555555,
+    "h": 0.0875
+  },
+  "baseAa": 3,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": {
+    "sx": 232,
+    "sy": 0,
+    "sw": 64,
+    "sh": 52,
+    "scale": 6,
+    "px": 3
+  },
+  "radixZoom": null
+}

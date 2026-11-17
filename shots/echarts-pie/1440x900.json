@@ -1,0 +1,33 @@
+{
+  "component": "echarts-pie",
+  "family": "echarts",
+  "page": "/parity/echarts.html",
+  "state": "pie-chart",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 1440,
+    "height": 800
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 1440,
+    "height": 800
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.004166666666666667,
+    "y": 0.0075,
+    "w": 0.7520833333333333,
+    "h": 0.8825
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

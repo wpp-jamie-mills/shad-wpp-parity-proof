@@ -1,0 +1,67 @@
+{
+  "component": "side-panel",
+  "family": "ai-surfaces",
+  "page": "/parity/ai-surfaces.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 1.2683760683760683,
+    "n": 2968,
+    "width": 390,
+    "height": 600
+  },
+  "radix": {
+    "pct": 1.2683760683760683,
+    "n": 2968,
+    "width": 390,
+    "height": 600
+  },
+  "baseRegions": [
+    {
+      "x": 0.24615384615384617,
+      "y": 0,
+      "w": 0.7538461538461538,
+      "h": 1,
+      "px": 2968,
+      "materialPx": 2968,
+      "aaOnly": false
+    }
+  ],
+  "radixRegions": [
+    {
+      "x": 0.24615384615384617,
+      "y": 0,
+      "w": 0.7538461538461538,
+      "h": 1,
+      "px": 2968,
+      "materialPx": 2968,
+      "aaOnly": false
+    }
+  ],
+  "content": {
+    "x": 0.2205128205128205,
+    "y": 0,
+    "w": 0.7794871794871795,
+    "h": 1
+  },
+  "baseAa": 0,
+  "baseMaterial": 2968,
+  "radixAa": 0,
+  "radixMaterial": 2968,
+  "baseZoom": {
+    "sx": 72,
+    "sy": 0,
+    "sw": 318,
+    "sh": 600,
+    "scale": 2,
+    "px": 2968
+  },
+  "radixZoom": {
+    "sx": 72,
+    "sy": 0,
+    "sw": 318,
+    "sh": 600,
+    "scale": 2,
+    "px": 2968
+  }
+}

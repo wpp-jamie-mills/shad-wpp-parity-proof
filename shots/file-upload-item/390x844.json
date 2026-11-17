@@ -1,0 +1,33 @@
+{
+  "component": "file-upload-item",
+  "family": "file-upload",
+  "page": "/parity/file-upload.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 380,
+    "height": 110
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 380,
+    "height": 110
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.07894736842105263,
+    "y": 0.3181818181818182,
+    "w": 0.8421052631578947,
+    "h": 0.36363636363636365
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

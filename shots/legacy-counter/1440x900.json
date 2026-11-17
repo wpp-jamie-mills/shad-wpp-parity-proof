@@ -1,0 +1,33 @@
+{
+  "component": "legacy-counter",
+  "family": "legacy",
+  "page": "/parity/legacy.html",
+  "state": "default",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 280,
+    "height": 140
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 280,
+    "height": 140
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.18214285714285713,
+    "y": 0.35714285714285715,
+    "w": 0.6357142857142857,
+    "h": 0.2857142857142857
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

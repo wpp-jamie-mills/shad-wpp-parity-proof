@@ -1,0 +1,33 @@
+{
+  "component": "button",
+  "family": "buttons",
+  "page": "/parity.html",
+  "state": "inverted-secondary-m",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 96
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 96
+  },
+  "content": {
+    "x": 0,
+    "y": 0,
+    "w": 1,
+    "h": 1
+  },
+  "baseRegions": [],
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixRegions": [],
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

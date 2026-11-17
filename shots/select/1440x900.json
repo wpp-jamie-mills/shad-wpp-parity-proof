@@ -1,0 +1,33 @@
+{
+  "component": "select",
+  "family": "select-autocomplete",
+  "page": "/parity/select-autocomplete.html",
+  "state": "default",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 360,
+    "height": 520
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 360,
+    "height": 520
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0,
+    "y": 0,
+    "w": 1,
+    "h": 0.07692307692307693
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

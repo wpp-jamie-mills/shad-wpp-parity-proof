@@ -1,0 +1,33 @@
+{
+  "component": "toast",
+  "family": "modals-feedback",
+  "page": "/parity/modals-feedback.html",
+  "state": "type-error",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 440,
+    "height": 200
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 440,
+    "height": 200
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0,
+    "y": 0,
+    "w": 0.9136363636363637,
+    "h": 0.31
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

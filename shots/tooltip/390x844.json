@@ -1,0 +1,33 @@
+{
+  "component": "tooltip",
+  "family": "overlay-primitives",
+  "page": "/parity/overlay-primitives.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 400
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 400
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.359375,
+    "y": 0.3525,
+    "w": 0.284375,
+    "h": 0.1975
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

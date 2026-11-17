@@ -1,0 +1,33 @@
+{
+  "component": "tree",
+  "family": "tree",
+  "page": "/parity/tree.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 360,
+    "height": 620
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 360,
+    "height": 620
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.03333333333333333,
+    "y": 0.016129032258064516,
+    "w": 0.9222222222222223,
+    "h": 0.27580645161290324
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

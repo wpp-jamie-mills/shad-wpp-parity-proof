@@ -1,0 +1,50 @@
+{
+  "component": "legend",
+  "family": "display-b",
+  "page": "/parity/display-b.html",
+  "state": "default",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0.005208333333333334,
+    "n": 2,
+    "width": 320,
+    "height": 120
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 120
+  },
+  "baseRegions": [
+    {
+      "x": 0.1,
+      "y": 0.4,
+      "w": 0.04999999999999999,
+      "h": 0.1333333333333333,
+      "px": 2,
+      "materialPx": 0,
+      "aaOnly": true
+    }
+  ],
+  "radixRegions": [],
+  "content": {
+    "x": 0.128125,
+    "y": 0.45,
+    "w": 0.14375,
+    "h": 0.09166666666666666
+  },
+  "baseAa": 2,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": {
+    "sx": 8,
+    "sy": 24,
+    "sw": 64,
+    "sh": 64,
+    "scale": 6,
+    "px": 2
+  },
+  "radixZoom": null
+}

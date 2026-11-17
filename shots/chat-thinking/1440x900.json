@@ -1,0 +1,33 @@
+{
+  "component": "chat-thinking",
+  "family": "chat",
+  "page": "/parity/chat.html",
+  "state": "default",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 640,
+    "height": 80
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 640,
+    "height": 80
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.43125,
+    "y": 0.2375,
+    "w": 0.1421875,
+    "h": 0.175
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

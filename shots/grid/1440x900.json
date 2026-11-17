@@ -1,0 +1,33 @@
+{
+  "component": "grid",
+  "family": "menus-grid",
+  "page": "/parity/menus-grid.html",
+  "state": "columns-24",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 1440,
+    "height": 360
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 1440,
+    "height": 360
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.025,
+    "y": 0,
+    "w": 0.95,
+    "h": 0.06666666666666667
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

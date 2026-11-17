@@ -1,0 +1,68 @@
+{
+  "component": "popover",
+  "family": "overlay-primitives",
+  "page": "/parity/overlay-primitives.html",
+  "state": "default",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 6.0296875,
+    "n": 7718,
+    "width": 320,
+    "height": 400
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 400
+  },
+  "baseRegions": [
+    {
+      "x": 0,
+      "y": 0.16,
+      "w": 0.9,
+      "h": 0.36,
+      "px": 7712,
+      "materialPx": 3777,
+      "aaOnly": false
+    },
+    {
+      "x": 0.05,
+      "y": 0.08,
+      "w": 0.05,
+      "h": 0.039999999999999994,
+      "px": 3,
+      "materialPx": 0,
+      "aaOnly": true
+    },
+    {
+      "x": 0.3,
+      "y": 0.08,
+      "w": 0.04999999999999999,
+      "h": 0.039999999999999994,
+      "px": 3,
+      "materialPx": 0,
+      "aaOnly": true
+    }
+  ],
+  "radixRegions": [],
+  "content": {
+    "x": 0.040625,
+    "y": 0.08,
+    "w": 0.83125,
+    "h": 0.4125
+  },
+  "baseAa": 3941,
+  "baseMaterial": 3777,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": {
+    "sx": 0,
+    "sy": 8,
+    "sw": 312,
+    "sh": 224,
+    "scale": 3,
+    "px": 7718
+  },
+  "radixZoom": null
+}

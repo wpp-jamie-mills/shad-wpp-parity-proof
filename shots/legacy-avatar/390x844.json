@@ -1,0 +1,33 @@
+{
+  "component": "legacy-avatar",
+  "family": "legacy",
+  "page": "/parity/legacy.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 180,
+    "height": 180
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 180,
+    "height": 180
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.43333333333333335,
+    "y": 0.43333333333333335,
+    "w": 0.13333333333333333,
+    "h": 0.13333333333333333
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

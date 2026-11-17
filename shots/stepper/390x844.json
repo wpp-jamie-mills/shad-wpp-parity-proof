@@ -1,0 +1,50 @@
+{
+  "component": "stepper",
+  "family": "navigation-chrome",
+  "page": "/parity/navigation-chrome.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0.014285714285714287,
+    "n": 36,
+    "width": 600,
+    "height": 420
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 600,
+    "height": 420
+  },
+  "baseRegions": [
+    {
+      "x": 0.3466666666666667,
+      "y": 0.34285714285714286,
+      "w": 0.08000000000000002,
+      "h": 0.0761904761904762,
+      "px": 36,
+      "materialPx": 13,
+      "aaOnly": false
+    }
+  ],
+  "radixRegions": [],
+  "content": {
+    "x": 0.355,
+    "y": 0.3357142857142857,
+    "w": 0.2633333333333333,
+    "h": 0.32857142857142857
+  },
+  "baseAa": 23,
+  "baseMaterial": 13,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": {
+    "sx": 184,
+    "sy": 120,
+    "sw": 96,
+    "sh": 80,
+    "scale": 6,
+    "px": 36
+  },
+  "radixZoom": null
+}

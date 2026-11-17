@@ -1,0 +1,33 @@
+{
+  "component": "media-viewer",
+  "family": "media",
+  "page": "/parity/media.html",
+  "state": "story-default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 448,
+    "height": 448
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 448,
+    "height": 448
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.09821428571428571,
+    "y": 0.17633928571428573,
+    "w": 0.8035714285714286,
+    "h": 0.7522321428571429
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

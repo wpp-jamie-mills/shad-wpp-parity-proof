@@ -1,0 +1,362 @@
+[
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "inverted-secondary-m",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0.0032552083333333335,
+      "n": 1,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "inverted-secondary-m",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "inverted-secondary-disabled-m",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0.0032552083333333335,
+      "n": 1,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "inverted-secondary-disabled-m",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "inverted-secondary-hover-m",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0.0032552083333333335,
+      "n": 1,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "inverted-secondary-hover-m",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "secondary-hover-m",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "secondary-hover-m",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "destructive-secondary-hover-m",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "destructive-secondary-hover-m",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "secondary-active-m",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "secondary-active-m",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "destructive-secondary-active-m",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "destructive-secondary-active-m",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "secondary-focus-m",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "secondary-focus-m",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "destructive-secondary-focus-m",
+    "name": "1440x900",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  },
+  {
+    "component": "button",
+    "family": "buttons",
+    "page": "/parity.html",
+    "state": "destructive-secondary-focus-m",
+    "name": "390x844",
+    "ok": true,
+    "base": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    },
+    "radix": {
+      "pct": 0,
+      "n": 0,
+      "width": 320,
+      "height": 96
+    }
+  }
+]

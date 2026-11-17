@@ -1,0 +1,50 @@
+{
+  "component": "richtext",
+  "family": "richtext",
+  "page": "/parity/richtext.html",
+  "state": "default",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0.006105006105006105,
+    "n": 10,
+    "width": 390,
+    "height": 420
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 390,
+    "height": 420
+  },
+  "baseRegions": [
+    {
+      "x": 0.6974358974358974,
+      "y": 0.3047619047619048,
+      "w": 0.08205128205128209,
+      "h": 0.07619047619047614,
+      "px": 10,
+      "materialPx": 0,
+      "aaOnly": true
+    }
+  ],
+  "radixRegions": [],
+  "content": {
+    "x": 0,
+    "y": 0.2976190476190476,
+    "w": 1,
+    "h": 0.40476190476190477
+  },
+  "baseAa": 10,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": {
+    "sx": 248,
+    "sy": 104,
+    "sw": 80,
+    "sh": 80,
+    "scale": 6,
+    "px": 10
+  },
+  "radixZoom": null
+}

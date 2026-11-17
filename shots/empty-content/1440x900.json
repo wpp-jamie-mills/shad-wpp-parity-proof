@@ -1,0 +1,33 @@
+{
+  "component": "empty-content",
+  "family": "image-empty-a",
+  "page": "/parity/image-empty-a.html",
+  "state": "default",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 240
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 240
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.259375,
+    "y": 0.17916666666666667,
+    "w": 0.48125,
+    "h": 0.6416666666666667
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

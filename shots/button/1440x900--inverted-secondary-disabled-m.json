@@ -1,0 +1,50 @@
+{
+  "component": "button",
+  "family": "buttons",
+  "page": "/parity.html",
+  "state": "inverted-secondary-disabled-m",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0.0032552083333333335,
+    "n": 1,
+    "width": 320,
+    "height": 96
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 96
+  },
+  "content": {
+    "x": 0,
+    "y": 0,
+    "w": 1,
+    "h": 1
+  },
+  "baseRegions": [
+    {
+      "x": 0.35,
+      "y": 0.3333333333333333,
+      "w": 0.050000000000000044,
+      "h": 0.16666666666666669,
+      "px": 1,
+      "materialPx": 0,
+      "aaOnly": true
+    }
+  ],
+  "baseAa": 1,
+  "baseMaterial": 0,
+  "radixRegions": [],
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": {
+    "sx": 88,
+    "sy": 8,
+    "sw": 64,
+    "sh": 64,
+    "scale": 6,
+    "px": 1
+  },
+  "radixZoom": null
+}

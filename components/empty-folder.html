@@ -1,0 +1,416 @@
+<!doctype html><html><head><meta charset="utf-8"><title>empty-folder — proof</title><style>
+*{box-sizing:border-box}body{margin:0;background:#f2f1ee;color:#1d1c1a;font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.page{max-width:1500px;margin:0 auto;padding:38px 40px 60px}
+h1{font-size:36px;margin:0 0 6px;letter-spacing:-.6px}h2{font-size:22px;margin:26px 0 10px}
+.sub{color:#4a4640;margin:0 0 18px}a{color:#8a1450}
+.meta{font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;color:#6d6860;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.cmp{margin:0}
+.badge{display:inline-block;padding:2px 7px;border-radius:999px;font-weight:700;font-size:12px}
+.badge.exact{background:#1f8a4c;color:#fff}.badge.aa{background:#d99200;color:#1d1c1a}.badge.diff{background:#a80050;color:#fff}
+.states{font-size:13px;color:#5b554d;margin:0 0 14px}
+.states a{color:#8a1450}
+.missing{color:#a33;background:#fff;border:1px solid #e3c3c3;border-radius:8px;padding:14px}
+.toolbar{display:flex;gap:10px;align-items:center;margin:0 0 16px}
+.toolbar button{font:inherit;font-size:14px;padding:6px 12px;border:1px solid #b9b2a8;border-radius:7px;background:#fff;color:#1d1c1a;cursor:pointer}
+.toolbar button:hover{background:#f0ece5}
+
+.split{--split:50%;--knob-y:50%;position:relative;background:#fff;border:1px solid #dcd7cf;border-radius:8px;overflow:hidden;height:340px;touch-action:none;cursor:ew-resize;outline:none}
+.split:focus-visible{box-shadow:0 0 0 3px #8a1450}
+.split .knob:focus-visible{outline:2px solid #8a1450;outline-offset:2px}
+.split img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center;pointer-events:none}
+.split .reg{clip-path:inset(0 0 0 var(--split))}
+.split .line{position:absolute;top:0;bottom:0;left:var(--split);width:2px;background:#d6006e;pointer-events:none}
+.split .knob{position:absolute;top:var(--knob-y,50%);left:var(--split);transform:translate(-50%,-50%);width:34px;height:34px;border-radius:50%;background:#fff;border:2px solid #d6006e;box-shadow:0 2px 8px rgba(0,0,0,.18);display:flex;align-items:center;justify-content:center;font-size:13px;color:#d6006e;pointer-events:auto;cursor:move;touch-action:none;font-weight:700;user-select:none}
+.lab{position:absolute;top:10px;background:#1d1c1a;color:#fff;padding:5px 10px;border-radius:4px;font-size:12px;font-weight:600;pointer-events:none}
+.lab small{font-weight:400;opacity:.75}.lab.left{left:10px}.lab.right{right:10px}
+figcaption{font-size:13px;color:#3c3a37;margin-top:8px}
+.markers{position:absolute;inset:0;pointer-events:none}
+.marker{position:absolute;display:none;transform:translate(-50%,-50%);border:2px solid #d6006e;border-radius:50%;background:rgba(214,0,110,.14);box-shadow:0 0 0 2px rgba(255,255,255,.75)}
+.marker.rect{border-radius:6px;background:rgba(214,0,110,.08)}
+.marker.aa{border-style:dashed;border-color:#8a1450;background:rgba(138,20,80,.10)}
+.chip{display:inline-block;padding:2px 7px;border-radius:999px;font-weight:700;font-size:12px;background:#1f8a4c;color:#fff;margin-left:6px}
+.marker{pointer-events:auto;cursor:zoom-in}
+.lens{position:absolute;width:190px;height:190px;border-radius:50%;overflow:hidden;border:3px solid #d6006e;box-shadow:0 10px 34px rgba(0,0,0,.28);pointer-events:none;display:none;z-index:6;background:#fff}
+.lens .half{position:absolute;inset:0;background-repeat:no-repeat}
+.lens .difflayer{position:absolute;inset:0;background-repeat:no-repeat;opacity:.9}
+.lens .lenszoom{position:absolute;left:50%;transform:translateX(-50%);bottom:6px;background:#1d1c1a;color:#fff;font-size:10px;padding:1px 5px;border-radius:4px;white-space:nowrap}
+.loupebtn{font:inherit;font-size:12px;padding:4px 9px;border:1px solid #8a1450;border-radius:6px;background:#fff;color:#8a1450;cursor:pointer;font-weight:600}
+.loupebtn:hover,.loupebtn.on{background:#8a1450;color:#fff}
+.aachip{display:inline-block;padding:2px 7px;border-radius:999px;font-weight:700;font-size:12px;background:#d8d3cb;color:#403b34;margin-left:6px}
+</style><style>#globalbar{position:sticky;top:10px;z-index:50;display:flex;gap:6px;align-items:center;background:#fff;border:1px solid #b9b2a8;border-radius:9px;padding:8px 10px;box-shadow:0 6px 24px rgba(0,0,0,.12);font-size:13px;flex-wrap:wrap;width:fit-content;max-width:100%;margin:0 0 18px}
+#globalbar .glabel{font-weight:700;color:#5b554d;font-size:12px;margin-right:2px}
+#globalbar .gsep{width:1px;height:20px;background:#ddd8d0;margin:0 4px}
+#globalbar button{font:inherit;font-size:13px;padding:5px 9px;border:1px solid #b9b2a8;border-radius:6px;background:#fff;color:#1d1c1a;cursor:pointer}
+#globalbar button:hover{background:#f0ece5}
+#globalbar button.on{background:#1d1c1a;color:#fff;border-color:#1d1c1a}
+#globalbar select{font:inherit;font-size:13px;padding:5px 8px;border:1px solid #b9b2a8;border-radius:6px;background:#fff;max-width:240px}</style></head><body><div class="page"><div id="globalbar" role="toolbar" aria-label="Sort and filter components">
+  <span class="glabel">Sort</span>
+  <button data-sort="name">A–Z</button>
+  <button data-sort="best">Most exact</button>
+  <button data-sort="worst">Most different</button>
+  <span class="gsep"></span>
+  <span class="glabel">Show</span>
+  <button data-filter="all">All</button>
+  <button data-filter="errors">Only differences</button>
+  <button data-filter="visible">Only visible differences</button>
+  <button data-filter="aa">Only AA (not visible)</button>
+  <select id="nav" aria-label="Jump to component"><option value="">Jump to component…</option></select>
+</div><p><a href="../gallery.html">← All components</a></p>
+  <h1>empty-folder</h1>
+  <p class="meta">/parity/image-empty-b.html · state: default · image-empty-b</p>
+  <p class="sub">WPP Open is the original web-component Storybook render. Base and Radix are the installed registries. Drag the panel or the handle left/right to wipe; drag the handle up/down to park it out of the way (double-click to re-centre it).</p>
+  
+  
+  <section class="viewport" data-viewport="1440x900"><h2>1440 × 900</h2><div class="grid"><figure class="cmp" data-exact="1" data-visible="0" data-aa="0">
+    <div class="split" data-wpp="../shots/empty-folder/1440x900-wpp.png" data-reg="../shots/empty-folder/1440x900-base.png" data-diff-full="" data-diff="../shots/empty-folder/1440x900-base-zoom-diff.png"  role="slider" tabindex="0" aria-label="Compare WPP Open with Base" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="--split:50%;--knob-y:10%"><img class="wpp" src="../shots/empty-folder/1440x900-wpp.png" alt="WPP Open">
+      <img class="reg" src="../shots/empty-folder/1440x900-base.png" alt="Base">
+      <div class="markers"></div>
+      <div class="line"></div><div class="knob">↕</div><span class="lab left">WPP Open <small>(Storybook)</small></span><span class="lab right">Base</span></div>
+    <figcaption>1440x900 · WPP Open vs Base — <span class="chip">✓ exact</span> <button class="loupebtn">View loupe</button></figcaption>
+  </figure><figure class="cmp" data-exact="1" data-visible="0" data-aa="0">
+    <div class="split" data-wpp="../shots/empty-folder/1440x900-wpp.png" data-reg="../shots/empty-folder/1440x900-radix.png" data-diff-full="" data-diff="../shots/empty-folder/1440x900-radix-zoom-diff.png"  role="slider" tabindex="0" aria-label="Compare WPP Open with Radix" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="--split:50%;--knob-y:10%"><img class="wpp" src="../shots/empty-folder/1440x900-wpp.png" alt="WPP Open">
+      <img class="reg" src="../shots/empty-folder/1440x900-radix.png" alt="Radix">
+      <div class="markers"></div>
+      <div class="line"></div><div class="knob">↕</div><span class="lab left">WPP Open <small>(Storybook)</small></span><span class="lab right">Radix</span></div>
+    <figcaption>1440x900 · WPP Open vs Radix — <span class="chip">✓ exact</span> <button class="loupebtn">View loupe</button></figcaption>
+  </figure></div></section>
+  <section class="viewport" data-viewport="390x844"><h2>390 × 844</h2><div class="grid"><figure class="cmp" data-exact="1" data-visible="0" data-aa="0">
+    <div class="split" data-wpp="../shots/empty-folder/390x844-wpp.png" data-reg="../shots/empty-folder/390x844-base.png" data-diff-full="" data-diff="../shots/empty-folder/390x844-base-zoom-diff.png"  role="slider" tabindex="0" aria-label="Compare WPP Open with Base" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="--split:50%;--knob-y:10%"><img class="wpp" src="../shots/empty-folder/390x844-wpp.png" alt="WPP Open">
+      <img class="reg" src="../shots/empty-folder/390x844-base.png" alt="Base">
+      <div class="markers"></div>
+      <div class="line"></div><div class="knob">↕</div><span class="lab left">WPP Open <small>(Storybook)</small></span><span class="lab right">Base</span></div>
+    <figcaption>390x844 · WPP Open vs Base — <span class="chip">✓ exact</span> <button class="loupebtn">View loupe</button></figcaption>
+  </figure><figure class="cmp" data-exact="1" data-visible="0" data-aa="0">
+    <div class="split" data-wpp="../shots/empty-folder/390x844-wpp.png" data-reg="../shots/empty-folder/390x844-radix.png" data-diff-full="" data-diff="../shots/empty-folder/390x844-radix-zoom-diff.png"  role="slider" tabindex="0" aria-label="Compare WPP Open with Radix" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" style="--split:50%;--knob-y:10%"><img class="wpp" src="../shots/empty-folder/390x844-wpp.png" alt="WPP Open">
+      <img class="reg" src="../shots/empty-folder/390x844-radix.png" alt="Radix">
+      <div class="markers"></div>
+      <div class="line"></div><div class="knob">↕</div><span class="lab left">WPP Open <small>(Storybook)</small></span><span class="lab right">Radix</span></div>
+    <figcaption>390x844 · WPP Open vs Radix — <span class="chip">✓ exact</span> <button class="loupebtn">View loupe</button></figcaption>
+  </figure></div></section>
+  <p id="no-diffs" class="missing" style="display:none">No differences on this component at either viewport.</p></div><script>
+(() => {
+  const NAV = [{"name":"accordion","slug":"accordion","worst":0},{"name":"action-button","slug":"action-button","worst":0},{"name":"artefact","slug":"artefact","worst":0},{"name":"audio-player","slug":"audio-player","worst":0},{"name":"autocomplete","slug":"autocomplete","worst":0},{"name":"avatar","slug":"avatar","worst":0},{"name":"avatar-group","slug":"avatar-group","worst":0},{"name":"back-to-top-button","slug":"back-to-top-button","worst":0},{"name":"banner","slug":"banner","worst":0.043859649122807015},{"name":"basic-node","slug":"basic-node","worst":0},{"name":"breadcrumb","slug":"breadcrumb","worst":0.027669270833333332},{"name":"button","slug":"button","worst":0},{"name":"card","slug":"card","worst":0},{"name":"card-group","slug":"card-group","worst":0},{"name":"chat-alert","slug":"chat-alert","worst":0},{"name":"chat-conversation","slug":"chat-conversation","worst":0},{"name":"chat-conversation-message","slug":"chat-conversation-message","worst":0},{"name":"chat-input","slug":"chat-input","worst":0},{"name":"chat-node","slug":"chat-node","worst":0.005148741418764302},{"name":"chat-reference","slug":"chat-reference","worst":0},{"name":"chat-thinking","slug":"chat-thinking","worst":0},{"name":"checkbox","slug":"checkbox","worst":0},{"name":"checkbox-group","slug":"checkbox-group","worst":0},{"name":"color-picker","slug":"color-picker","worst":0},{"name":"counter","slug":"counter","worst":0},{"name":"datepicker","slug":"datepicker","worst":0},{"name":"divider","slug":"divider","worst":0},{"name":"echarts-bar","slug":"echarts-bar","worst":0},{"name":"echarts-line","slug":"echarts-line","worst":0},{"name":"echarts-pie","slug":"echarts-pie","worst":0},{"name":"empty-404","slug":"empty-404","worst":0},{"name":"empty-cards","slug":"empty-cards","worst":0},{"name":"empty-content","slug":"empty-content","worst":0},{"name":"empty-dataviz","slug":"empty-dataviz","worst":0},{"name":"empty-downtime","slug":"empty-downtime","worst":0},{"name":"empty-error","slug":"empty-error","worst":0},{"name":"empty-folder","slug":"empty-folder","worst":0},{"name":"empty-no-access","slug":"empty-no-access","worst":0},{"name":"empty-no-connection","slug":"empty-no-connection","worst":0},{"name":"empty-nothing-found","slug":"empty-nothing-found","worst":0},{"name":"empty-notifications","slug":"empty-notifications","worst":0},{"name":"empty-table","slug":"empty-table","worst":0},{"name":"expandable-card","slug":"expandable-card","worst":0},{"name":"file-upload","slug":"file-upload","worst":0},{"name":"file-upload-item","slug":"file-upload-item","worst":0},{"name":"filter-button","slug":"filter-button","worst":0},{"name":"floating-button","slug":"floating-button","worst":0},{"name":"floating-toolbar","slug":"floating-toolbar","worst":0},{"name":"focus-artefact","slug":"focus-artefact","worst":0},{"name":"grid","slug":"grid","worst":0},{"name":"handle","slug":"handle","worst":0.06770833333333334},{"name":"hue-slider","slug":"hue-slider","worst":0},{"name":"image","slug":"image","worst":0},{"name":"inline-edit","slug":"inline-edit","worst":0},{"name":"inline-message","slug":"inline-message","worst":0.065359477124183},{"name":"input","slug":"input","worst":0},{"name":"internal-label","slug":"internal-label","worst":0},{"name":"label","slug":"label","worst":0},{"name":"legacy-autocomplete","slug":"legacy-autocomplete","worst":0},{"name":"legacy-avatar","slug":"legacy-avatar","worst":0},{"name":"legacy-counter","slug":"legacy-counter","worst":0},{"name":"legacy-sticky-bar","slug":"legacy-sticky-bar","worst":16.85185185185185},{"name":"legacy-topbar","slug":"legacy-topbar","worst":0},{"name":"legacy-topbar-item","slug":"legacy-topbar-item","worst":0},{"name":"legend","slug":"legend","worst":0.005208333333333334},{"name":"list-item","slug":"list-item","worst":0},{"name":"load-more","slug":"load-more","worst":0},{"name":"media-viewer","slug":"media-viewer","worst":0},{"name":"menu-context","slug":"menu-context","worst":0},{"name":"menu-group","slug":"menu-group","worst":0},{"name":"more-button","slug":"more-button","worst":0},{"name":"nav-sidebar","slug":"nav-sidebar","worst":0},{"name":"nav-sidebar-item","slug":"nav-sidebar-item","worst":0},{"name":"opacity-slider","slug":"opacity-slider","worst":0},{"name":"overlay","slug":"overlay","worst":0},{"name":"pagination","slug":"pagination","worst":0},{"name":"pagination-item","slug":"pagination-item","worst":0},{"name":"pagination-select","slug":"pagination-select","worst":0},{"name":"pill","slug":"pill","worst":0},{"name":"pill-group","slug":"pill-group","worst":0.1282051282051282},{"name":"popover","slug":"popover","worst":6.0296875},{"name":"progress-indicator","slug":"progress-indicator","worst":0},{"name":"radio","slug":"radio","worst":0},{"name":"radio-group","slug":"radio-group","worst":0},{"name":"richtext","slug":"richtext","worst":0.006105006105006105},{"name":"richtext-common-styles","slug":"richtext-common-styles","worst":0},{"name":"richtext-html","slug":"richtext-html","worst":0},{"name":"richtext-icon-loader","slug":"richtext-icon-loader","worst":0},{"name":"richtext-markdown","slug":"richtext-markdown","worst":0},{"name":"richtext-view","slug":"richtext-view","worst":0},{"name":"saturation-picker","slug":"saturation-picker","worst":0},{"name":"search","slug":"search","worst":0},{"name":"segmented-control","slug":"segmented-control","worst":0},{"name":"segmented-control-item","slug":"segmented-control-item","worst":0},{"name":"select","slug":"select","worst":0},{"name":"side-panel","slug":"side-panel","worst":1.2683760683760683},{"name":"skeleton","slug":"skeleton","worst":0.076171875},{"name":"slider","slug":"slider","worst":0.005208333333333334},{"name":"sort-button","slug":"sort-button","worst":0},{"name":"spinner","slug":"spinner","worst":0},{"name":"step","slug":"step","worst":0},{"name":"stepper","slug":"stepper","worst":0.056746031746031746},{"name":"sticky-bar","slug":"sticky-bar","worst":0},{"name":"tab","slug":"tab","worst":0},{"name":"tabs","slug":"tabs","worst":0},{"name":"tag","slug":"tag","worst":0},{"name":"textarea-input","slug":"textarea-input","worst":0},{"name":"time-picker","slug":"time-picker","worst":0.0021645021645021645},{"name":"toast","slug":"toast","worst":0.0022727272727272726},{"name":"toggle","slug":"toggle","worst":0},{"name":"tooltip","slug":"tooltip","worst":0},{"name":"topbar","slug":"topbar","worst":0},{"name":"topbar-item","slug":"topbar-item","worst":0},{"name":"tree","slug":"tree","worst":0},{"name":"tree-item","slug":"tree-item","worst":0},{"name":"typography","slug":"typography","worst":0},{"name":"video-player","slug":"video-player","worst":0.011924342105263157}];
+  const q = new URLSearchParams(location.search);
+  let sort = q.get('sort') || 'name';
+  let filter = q.get('filter') || 'all';
+  const list = document.querySelector('#cards, #grid');
+  const select = document.getElementById('nav');
+  const prefix = location.pathname.includes('/components/') ? '' : 'components/';
+  function ordered() {
+    let items = NAV.slice();
+    if (filter === 'errors') items = items.filter((x) => x.worst > 0);
+    items.sort((a, b) => {
+      if (sort === 'name') return a.name.localeCompare(b.name);
+      return sort === 'worst'
+        ? b.worst - a.worst || a.name.localeCompare(b.name)
+        : a.worst - b.worst || a.name.localeCompare(b.name);
+    });
+    return items;
+  }
+  function apply() {
+    if (select) {
+      const current = select.value;
+      select.innerHTML = '<option value="">Jump to component…</option>' +
+        ordered().map((x) => '<option value="' + prefix + x.slug + '.html">' + x.name + (x.worst > 0 ? ' · ' + x.worst.toFixed(3) + '%' : ' · exact') + '</option>').join('');
+      if ([...select.options].some((o) => o.value === current)) select.value = current;
+    }
+    const comparisons = [...document.querySelectorAll('figure.cmp')];
+    for (const cmp of comparisons) {
+      const exact = cmp.dataset.exact === '1';
+      const visible = cmp.dataset.visible === '1';
+      const aa = cmp.dataset.aa === '1';
+      const hide = filter === 'errors' ? exact : filter === 'visible' ? !visible : filter === 'aa' ? !aa : false;
+      cmp.style.display = hide ? 'none' : '';
+    }
+    document.querySelectorAll('.viewport').forEach((section) => {
+      const cmps = [...section.querySelectorAll('figure.cmp')];
+      if (cmps.length === 0) return;
+      const show = cmps.some((c) => c.style.display !== 'none');
+      section.style.display = show ? '' : 'none';
+    });
+    const noDiffs = document.getElementById('no-diffs');
+    if (noDiffs) {
+      noDiffs.textContent = filter === 'visible'
+        ? "No visible differences on this component at either viewport."
+        : "No differences on this component at either viewport.";
+      noDiffs.style.display = filter !== 'all' && comparisons.length > 0 && comparisons.every((c) => c.style.display === 'none') ? '' : 'none';
+    }
+    if (list) {
+      const items = [...list.children];
+      items.sort((a, b) => {
+        if (sort === 'name') return a.dataset.name.localeCompare(b.dataset.name);
+        const aw = Number(a.dataset.worst) || 0;
+        const bw = Number(b.dataset.worst) || 0;
+        return sort === 'worst' ? bw - aw || a.dataset.name.localeCompare(b.dataset.name) : aw - bw || a.dataset.name.localeCompare(b.dataset.name);
+      });
+      for (const item of items) list.appendChild(item);
+      for (const item of list.children) {
+        const worst = Number(item.dataset.worst) || 0;
+        const visible = item.dataset.visible === '1';
+        const aa = item.dataset.aa === '1';
+        const hide = filter === 'errors' ? worst === 0 : filter === 'visible' ? !visible : filter === 'aa' ? !aa : false;
+        item.style.display = hide ? 'none' : '';
+      }
+    }
+    document.body.dataset.filter = filter;
+    document.querySelectorAll("a.sheetc").forEach((link) => {
+      link.href = link.dataset.base + "?filter=" + filter;
+    });
+    document.querySelectorAll("img.sheet").forEach((img) => {
+      const src = img.dataset[filter === "all" ? "all" : filter];
+      if (src && img.getAttribute("src") !== src) img.src = src;
+    });
+    if (typeof positionMarkers === "function") positionMarkers();
+    document.querySelectorAll('[data-sort]').forEach((b) => b.classList.toggle('on', b.dataset.sort === sort));
+    document.querySelectorAll('[data-filter]').forEach((b) => b.classList.toggle('on', b.dataset.filter === filter));
+    const url = new URL(location.href); url.searchParams.set('sort', sort); url.searchParams.set('filter', filter);
+    history.replaceState(null, '', url);
+  }
+  document.querySelectorAll('[data-sort]').forEach((b) => b.addEventListener('click', () => { sort = b.dataset.sort; apply(); }));
+  document.querySelectorAll('[data-filter]').forEach((b) => b.addEventListener('click', () => { filter = b.dataset.filter; apply(); }));
+  if (select) select.addEventListener('change', () => { if (select.value) location.href = select.value; });
+  apply();
+})();
+</script><script>
+function markerVisibility(split) {
+  const sr = split.getBoundingClientRect();
+  const raw = parseFloat(split.style.getPropertyValue('--split'));
+  const pct = Number.isFinite(raw) ? raw : 50;
+  const splitPx = (pct / 100) * sr.width;
+  split.querySelectorAll('.marker').forEach((marker) => {
+    const cx = Number(marker.dataset.cx || 0);
+    // The registry is visible to the right of the divider. Once the slider
+    // passes a region's centre, that region shows WPP Open and the marker
+    // would be pointing at nothing, so hide it.
+    if (marker.classList.contains("aa") && document.body.dataset.filter === "visible") {
+      marker.style.display = "none";
+      return;
+    }
+    marker.style.display = splitPx <= cx ? "block" : "none";
+  });
+}
+
+function positionMarkers() {
+  document.querySelectorAll('.split').forEach((split) => {
+    const img = split.querySelector('img.wpp');
+    const layer = split.querySelector('.markers');
+    if (!img || !layer || !img.complete) return;
+    const ir = img.getBoundingClientRect();
+    const sr = split.getBoundingClientRect();
+    // object-fit: contain letterboxes the image inside its element; map the
+    // normalised regions into the visible content rect, not the element box.
+    const nw = img.naturalWidth || ir.width;
+    const nh = img.naturalHeight || ir.height;
+    const scale = Math.min(ir.width / nw, ir.height / nh);
+    const dw = nw * scale;
+    const dh = nh * scale;
+    const dx = ir.left - sr.left + (ir.width - dw) / 2;
+    const dy = ir.top - sr.top + (ir.height - dh) / 2;
+    split._content = { dx, dy, dw, dh };
+    layer.querySelectorAll('.marker').forEach((marker) => {
+      const region = JSON.parse(marker.dataset.region);
+      const cx = dx + (region.x + region.w / 2) * dw;
+      const cy = dy + (region.y + region.h / 2) * dh;
+      const rw = region.w * dw;
+      const rh = region.h * dh;
+      marker.dataset.cx = String(cx);
+      marker.dataset.cy = String(cy);
+      marker.style.left = cx + 'px';
+      marker.style.top = cy + 'px';
+      if (Math.max(rw, rh) > 70) {
+        marker.classList.add('rect');
+        marker.style.width = Math.max(24, rw + 10) + 'px';
+        marker.style.height = Math.max(24, rh + 10) + 'px';
+      } else {
+        const diameter = Math.max(22, Math.min(140, Math.max(rw, rh) * 1.8));
+        marker.style.width = diameter + 'px';
+        marker.style.height = diameter + 'px';
+      }
+    });
+    markerVisibility(split);
+    if (!split.dataset.lensBound) {
+      split.dataset.lensBound = "1";
+      const lens = document.createElement("div");
+      lens.className = "lens";
+      lens.innerHTML = '<div class="half"></div><div class="difflayer"></div><span class="lenszoom">diff ×6</span>';
+      const fig = split.closest("figure.cmp");
+      if (fig) fig.style.position = "relative";
+      (fig || split).appendChild(lens);
+      const btn = split.closest("figure")?.querySelector(".loupebtn");
+      const state = { pinned: false, loupe: false, hideTimer: null };
+
+      const paint = (mx, my) => {
+        const { dx, dy, dw, dh } = split._content || {};
+        if (!dw || !dh) return;
+        const L = 190;
+        const Z = 6;
+        const cx = Math.max(dx, Math.min(dx + dw, mx));
+        const cy = Math.max(dy, Math.min(dy + dh, my));
+        const bgX = L / 2 - (cx - dx) * Z;
+        const bgY = L / 2 - (cy - dy) * Z;
+        // Always north-east of the cursor with a fixed offset, relative to the
+        // figure so it can extend past the comparison card instead of flipping.
+        const OFFSET = 22;
+        const fig = split.closest("figure.cmp") || split;
+        const fr = fig.getBoundingClientRect();
+        const sr = split.getBoundingClientRect();
+        const fx = sr.left - fr.left + mx;
+        const fy = sr.top - fr.top + my;
+        lens.style.left = fx + OFFSET + "px";
+        lens.style.top = fy - L - OFFSET + "px";
+        const half = lens.querySelector(".half");
+        half.style.backgroundImage = 'url("' + split.dataset.wpp + '")';
+        half.style.backgroundSize = dw * Z + "px " + dh * Z + "px";
+        half.style.backgroundPosition = bgX + "px " + bgY + "px";
+        const diffLayer = lens.querySelector(".difflayer");
+        if (diffLayer) {
+          if (split.dataset.diffFull) {
+            diffLayer.style.backgroundImage = 'url("' + split.dataset.diffFull + '")';
+            diffLayer.style.backgroundSize = dw * Z + "px " + dh * Z + "px";
+            diffLayer.style.backgroundPosition = bgX + "px " + bgY + "px";
+          } else {
+            diffLayer.style.backgroundImage = "none";
+          }
+        }
+        lens.style.display = "block";
+      };
+
+      const hideLens = () => { lens.style.display = "none"; };
+      const scheduleHide = () => {
+        clearTimeout(state.hideTimer);
+        state.hideTimer = setTimeout(() => { if (!state.pinned) hideLens(); }, 300);
+      };
+      const setLoupe = (on) => {
+        state.loupe = on;
+        split.dataset.loupe = on ? "on" : "";
+        if (btn) { btn.textContent = on ? "Hide loupe" : "View loupe"; btn.classList.toggle("on", on); }
+        if (!on) hideLens();
+      };
+
+      split.querySelectorAll(".marker").forEach((marker) => {
+        marker.addEventListener("pointerdown", (event) => event.stopPropagation());
+        marker.addEventListener("mouseenter", () => {
+          if (state.loupe) return;
+          state.pinned = true;
+          paint(Number(marker.dataset.cx), Number(marker.dataset.cy));
+        });
+        marker.addEventListener("mouseleave", () => {
+          if (state.loupe) return;
+          state.pinned = false;
+          scheduleHide();
+        });
+        marker.addEventListener("click", (event) => {
+          event.stopPropagation();
+          if (state.loupe) return;
+          state.pinned = !state.pinned;
+          if (state.pinned) paint(Number(marker.dataset.cx), Number(marker.dataset.cy));
+          else hideLens();
+        });
+      });
+
+      split.addEventListener("pointermove", (event) => {
+        if (!state.loupe) return;
+        const rect = split.getBoundingClientRect();
+        paint(event.clientX - rect.left, event.clientY - rect.top);
+      });
+      split.addEventListener("pointerleave", () => { if (state.loupe) hideLens(); });
+      split.addEventListener("pointerdown", (event) => {
+        if (state.loupe) return;
+        state.pinned = false;
+        hideLens();
+      });
+      if (btn) {
+        btn.addEventListener("click", (event) => { event.stopPropagation(); setLoupe(!state.loupe); });
+      }
+      document.addEventListener("pointerdown", (event) => {
+        if (!state.loupe) return;
+        if (split.contains(event.target) || event.target === btn) return;
+        setLoupe(false);
+      }, true);
+    }
+  });
+}
+window.addEventListener('load', positionMarkers);
+window.addEventListener('resize', positionMarkers);
+
+document.querySelectorAll('.split').forEach((split) => {
+  let dragging = false;
+  const setFromX = (clientX) => {
+    const r = split.getBoundingClientRect();
+    const pct = Math.max(0, Math.min(100, ((clientX - r.left) / r.width) * 100));
+    split.style.setProperty('--split', pct + '%');
+    split.setAttribute('aria-valuenow', String(Math.round(pct)));
+    markerVisibility(split);
+  };
+  split.addEventListener('pointerdown', (event) => {
+    if (event.target.closest('.knob')) return;
+    dragging = true;
+    split.setPointerCapture(event.pointerId);
+    setFromX(event.clientX);
+  });
+  split.addEventListener('pointermove', (event) => { if (dragging) setFromX(event.clientX); });
+  split.addEventListener('pointerup', () => { dragging = false; });
+  split.addEventListener('pointercancel', () => { dragging = false; });
+
+  const knob = split.querySelector('.knob');
+  if (knob) {
+    let knobDragging = false;
+    const setKnobY = (clientY) => {
+      const r = split.getBoundingClientRect();
+      const pct = Math.max(4, Math.min(96, ((clientY - r.top) / r.height) * 100));
+      split.style.setProperty('--knob-y', pct + '%');
+    };
+    knob.addEventListener('pointerdown', (event) => {
+      event.stopPropagation();
+      knobDragging = true;
+      knob.setPointerCapture(event.pointerId);
+      // The handle is a 2D control: x slides the wipe, y parks the handle.
+      setFromX(event.clientX);
+      setKnobY(event.clientY);
+    });
+    knob.addEventListener('pointermove', (event) => {
+      event.stopPropagation();
+      if (!knobDragging) return;
+      setFromX(event.clientX);
+      setKnobY(event.clientY);
+    });
+    knob.addEventListener('pointerup', (event) => { event.stopPropagation(); knobDragging = false; });
+    knob.addEventListener('pointercancel', () => { knobDragging = false; });
+    knob.addEventListener('dblclick', (event) => {
+      event.stopPropagation();
+      split.style.setProperty('--knob-y', '50%');
+    });
+    knob.addEventListener('keydown', (event) => {
+      const now = parseFloat(split.style.getPropertyValue('--knob-y')) || 50;
+      const step = event.shiftKey ? 10 : 3;
+      let next = now;
+      if (event.key === 'ArrowUp') next = Math.max(4, now - step);
+      else if (event.key === 'ArrowDown') next = Math.min(96, now + step);
+      else if (event.key === 'Home') next = 4;
+      else if (event.key === 'End') next = 96;
+      else return;
+      event.preventDefault();
+      event.stopPropagation();
+      split.style.setProperty('--knob-y', next + '%');
+    });
+    knob.setAttribute('tabindex', '0');
+    knob.setAttribute('role', 'button');
+    knob.setAttribute('aria-label', 'Move the divider handle up or down');
+  }
+  split.addEventListener('keydown', (event) => {
+    const now = Number(split.getAttribute('aria-valuenow') || 50);
+    const step = event.shiftKey ? 10 : 2;
+    let next = now;
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowDown') next = Math.max(0, now - step);
+    else if (event.key === 'ArrowRight' || event.key === 'ArrowUp') next = Math.min(100, now + step);
+    else if (event.key === 'Home') next = 0;
+    else if (event.key === 'End') next = 100;
+    else return;
+    event.preventDefault();
+    split.style.setProperty('--split', next + '%');
+    split.setAttribute('aria-valuenow', String(next));
+    markerVisibility(split);
+  });
+});
+</script></body></html>

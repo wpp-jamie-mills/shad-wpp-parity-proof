@@ -1,0 +1,33 @@
+{
+  "component": "action-button",
+  "family": "buttons",
+  "page": "/parity/buttons.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 96
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 96
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.434375,
+    "y": 0.4270833333333333,
+    "w": 0.13125,
+    "h": 0.125
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

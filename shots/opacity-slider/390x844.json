@@ -1,0 +1,33 @@
+{
+  "component": "opacity-slider",
+  "family": "color",
+  "page": "/parity/color.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 48
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 48
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.0375,
+    "y": 0.25,
+    "w": 0.909375,
+    "h": 0.3541666666666667
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

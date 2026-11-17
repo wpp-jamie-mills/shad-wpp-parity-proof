@@ -1,0 +1,33 @@
+{
+  "component": "tag",
+  "family": "display-a",
+  "page": "/parity/display-a.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 260,
+    "height": 64
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 260,
+    "height": 64
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.4423076923076923,
+    "y": 0.40625,
+    "w": 0.11538461538461539,
+    "h": 0.171875
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

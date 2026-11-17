@@ -1,0 +1,50 @@
+{
+  "component": "banner",
+  "family": "modals-feedback",
+  "page": "/parity/modals-feedback.html",
+  "state": "warning",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0.043859649122807015,
+    "n": 18,
+    "width": 342,
+    "height": 120
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 342,
+    "height": 120
+  },
+  "baseRegions": [
+    {
+      "x": 0.0935672514619883,
+      "y": 0.13333333333333333,
+      "w": 0.04678362573099415,
+      "h": 0.13333333333333333,
+      "px": 18,
+      "materialPx": 5,
+      "aaOnly": false
+    }
+  ],
+  "radixRegions": [],
+  "content": {
+    "x": 0,
+    "y": 0,
+    "w": 1,
+    "h": 0.43333333333333335
+  },
+  "baseAa": 13,
+  "baseMaterial": 5,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": {
+    "sx": 8,
+    "sy": 0,
+    "sw": 64,
+    "sh": 56,
+    "scale": 6,
+    "px": 18
+  },
+  "radixZoom": null
+}

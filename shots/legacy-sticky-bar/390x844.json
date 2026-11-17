@@ -1,0 +1,59 @@
+{
+  "component": "legacy-sticky-bar",
+  "family": "legacy",
+  "page": "/parity/legacy.html",
+  "state": "visible-one-line",
+  "viewport": "390x844",
+  "base": {
+    "pct": 16.85185185185185,
+    "n": 43680,
+    "width": 1440,
+    "height": 180
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 1440,
+    "height": 180
+  },
+  "baseRegions": [
+    {
+      "x": 0,
+      "y": 0.26666666666666666,
+      "w": 0.2777777777777778,
+      "h": 0.4444444444444445,
+      "px": 21840,
+      "materialPx": 21813,
+      "aaOnly": false
+    },
+    {
+      "x": 0.35555555555555557,
+      "y": 0.26666666666666666,
+      "w": 0.2888888888888889,
+      "h": 0.4444444444444445,
+      "px": 21840,
+      "materialPx": 21813,
+      "aaOnly": false
+    }
+  ],
+  "radixRegions": [],
+  "content": {
+    "x": 0,
+    "y": 0.46111111111111114,
+    "w": 0.2708333333333333,
+    "h": 0.2
+  },
+  "baseAa": 54,
+  "baseMaterial": 43626,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": {
+    "sx": 0,
+    "sy": 24,
+    "sw": 953,
+    "sh": 128,
+    "scale": 2,
+    "px": 43680
+  },
+  "radixZoom": null
+}

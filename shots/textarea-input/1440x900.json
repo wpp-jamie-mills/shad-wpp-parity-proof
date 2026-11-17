@@ -1,0 +1,33 @@
+{
+  "component": "textarea-input",
+  "family": "text-inputs",
+  "page": "/parity/text-inputs.html",
+  "state": "default",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 224
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 224
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.0625,
+    "y": 0.16517857142857142,
+    "w": 0.875,
+    "h": 0.6830357142857143
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

@@ -1,0 +1,59 @@
+{
+  "component": "video-player",
+  "family": "media",
+  "page": "/parity/media.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0.011924342105263157,
+    "n": 29,
+    "width": 640,
+    "height": 380
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 640,
+    "height": 380
+  },
+  "baseRegions": [
+    {
+      "x": 0.45,
+      "y": 0.4631578947368421,
+      "w": 0.024999999999999967,
+      "h": 0.08421052631578951,
+      "px": 16,
+      "materialPx": 6,
+      "aaOnly": false
+    },
+    {
+      "x": 0.525,
+      "y": 0.4631578947368421,
+      "w": 0.025000000000000022,
+      "h": 0.08421052631578951,
+      "px": 13,
+      "materialPx": 5,
+      "aaOnly": false
+    }
+  ],
+  "radixRegions": [],
+  "content": {
+    "x": 0,
+    "y": 0.02631578947368421,
+    "w": 1,
+    "h": 0.9473684210526315
+  },
+  "baseAa": 18,
+  "baseMaterial": 11,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": {
+    "sx": 264,
+    "sy": 152,
+    "sw": 112,
+    "sh": 80,
+    "scale": 6,
+    "px": 29
+  },
+  "radixZoom": null
+}

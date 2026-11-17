@@ -1,0 +1,50 @@
+{
+  "component": "time-picker",
+  "family": "date-time",
+  "page": "/parity/date-time.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0.0021645021645021645,
+    "n": 4,
+    "width": 330,
+    "height": 560
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 330,
+    "height": 560
+  },
+  "baseRegions": [
+    {
+      "x": 0,
+      "y": 0.02857142857142857,
+      "w": 0.09696969696969697,
+      "h": 0.02857142857142857,
+      "px": 4,
+      "materialPx": 0,
+      "aaOnly": true
+    }
+  ],
+  "radixRegions": [],
+  "content": {
+    "x": 0,
+    "y": 0,
+    "w": 0.6,
+    "h": 0.07142857142857142
+  },
+  "baseAa": 4,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": {
+    "sx": 0,
+    "sy": 0,
+    "sw": 56,
+    "sh": 56,
+    "scale": 6,
+    "px": 4
+  },
+  "radixZoom": null
+}

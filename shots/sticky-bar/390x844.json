@@ -1,0 +1,33 @@
+{
+  "component": "sticky-bar",
+  "family": "display-composite",
+  "page": "/parity/display-composite.html",
+  "state": "visible",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 390,
+    "height": 240
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 390,
+    "height": 240
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0,
+    "y": 0.08333333333333333,
+    "w": 1,
+    "h": 0.15
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

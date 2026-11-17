@@ -1,0 +1,33 @@
+{
+  "component": "search",
+  "family": "text-inputs",
+  "page": "/parity/text-inputs.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 352
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 352
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.0625,
+    "y": 0.4119318181818182,
+    "w": 0.875,
+    "h": 0.1846590909090909
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

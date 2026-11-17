@@ -1,0 +1,33 @@
+{
+  "component": "datepicker",
+  "family": "date-time",
+  "page": "/parity/date-time.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 356,
+    "height": 720
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 356,
+    "height": 720
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0,
+    "y": 0,
+    "w": 0.5617977528089888,
+    "h": 0.05555555555555555
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

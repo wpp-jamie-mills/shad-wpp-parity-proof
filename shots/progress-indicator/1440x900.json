@@ -1,0 +1,33 @@
+{
+  "component": "progress-indicator",
+  "family": "display-b",
+  "page": "/parity/display-b.html",
+  "state": "bar-indeterminate",
+  "viewport": "1440x900",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 200
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 200
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.125,
+    "y": 0.49,
+    "w": 0.75,
+    "h": 0.02
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

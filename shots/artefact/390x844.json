@@ -1,0 +1,33 @@
+{
+  "component": "artefact",
+  "family": "ai-surfaces",
+  "page": "/parity/ai-surfaces.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 360,
+    "height": 420
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 360,
+    "height": 420
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.1,
+    "y": 0.1595238095238095,
+    "w": 0.8,
+    "h": 0.6857142857142857
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

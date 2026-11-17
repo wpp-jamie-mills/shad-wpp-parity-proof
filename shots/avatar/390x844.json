@@ -1,0 +1,33 @@
+{
+  "component": "avatar",
+  "family": "display-a",
+  "page": "/parity/display-a.html",
+  "state": "size-xs",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 152,
+    "height": 152
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 152,
+    "height": 152
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.42105263157894735,
+    "y": 0.42105263157894735,
+    "w": 0.15789473684210525,
+    "h": 0.15789473684210525
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

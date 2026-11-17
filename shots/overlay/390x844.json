@@ -1,0 +1,33 @@
+{
+  "component": "overlay",
+  "family": "overlay-primitives",
+  "page": "/parity/overlay-primitives.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 160
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 320,
+    "height": 160
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.365625,
+    "y": 0.45625,
+    "w": 0.63125,
+    "h": 0.5375
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}

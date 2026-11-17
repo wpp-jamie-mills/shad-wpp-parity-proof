@@ -1,0 +1,33 @@
+{
+  "component": "tabs",
+  "family": "navigation-chrome",
+  "page": "/parity/navigation-chrome.html",
+  "state": "default",
+  "viewport": "390x844",
+  "base": {
+    "pct": 0,
+    "n": 0,
+    "width": 640,
+    "height": 64
+  },
+  "radix": {
+    "pct": 0,
+    "n": 0,
+    "width": 640,
+    "height": 64
+  },
+  "baseRegions": [],
+  "radixRegions": [],
+  "content": {
+    "x": 0.2125,
+    "y": 0.34375,
+    "w": 0.575,
+    "h": 0.453125
+  },
+  "baseAa": 0,
+  "baseMaterial": 0,
+  "radixAa": 0,
+  "radixMaterial": 0,
+  "baseZoom": null,
+  "radixZoom": null
+}
